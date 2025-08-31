@@ -1,0 +1,18 @@
+# Main Unsloth and PEFT libraries
+unsloth
+bitsandbytes==0.47.0
+accelerate==1.10.1
+peft==0.17.1
+trl==0.22.1
+xformers==0.0.29.post3
+
+# Hugging Face ecosystem
+transformers==4.55.4
+datasets
+sentencepiece==0.2.1
+huggingface-hub==0.34.4
+hf_transfer==0.1.9
+
+# Core ML and Data libraries
+torch==2.8.0
+pandas==2.2.2

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "response": ""
+  },
+  {
+    "id": 2,
+    "response": ""
+  },
+  {
+    "id": 3,
+    "response": ""
+  },
+  {
+    "id": 4,
+    "response": ""
+  },
+  {
+    "id": 5,
+    "response": ""
+  },
+  {
+    "id": 6,
+    "response": ""
+  },
+  {
+    "id": 7,
+    "response": ""
+  },
+  {
+    "id": 8,
+    "response": ""
+  },
+  {
+    "id": 9,
+    "response": ""
+  },
+  {
+    "id": 10,
+    "response": ""
+  },
+  {
+    "id": 11,
+    "response": ""
+  },
+  {
+    "id": 12,
+    "response": ""
+  },
+  {
+    "id": 13,
+    "response": ""
+  },
+  {
+    "id": 14,
+    "response": ""
+  },
+  {
+    "id": 15,
+    "response": "```python\ndef average_tuple(tup):\n  \"\"\"\n  একটি টুপল টুপল এর গড় মান নির্ণয় করে।\n\n  Args:\n    tup: একটি টুপল।\n\n  Returns:\n    টুপলের গড় মান।\n  \"\"\"\n  total = 0\n  for num in tup:\n    total += num\n  average = total / len(tup)\n  return average\n\n# Example usage:\ntup1 = (1, 2, 3)\naverage1 = average_tuple(tup1)\nprint(f\"The average of {tup1} is: {average1}\")\n\ntup2 = (10, 20, 30, 40)\naverage2 = average_tuple(tup2)\nprint(f\"The average of {tup2} is: {average2}\")\n```\n\nএই কোডটি প্রথমে `average_tuple` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি টুপল আর্গুমেন্ট হিসেবে গ্রহণ করে এবং টুপলের উপাদানগুলোর গড় মান নির্ণয় করে।\n\nফাংশনটি প্রথমে `total` নামক"
+  },
+  {
+    "id": 16,
+    "response": "```python\ndef tuple_modulo(tup, tup2):\n  \"\"\"\n  দুটি টুপল উপাদানগুলির মডুলো অপারেশন করে।\n\n  Args:\n    tup: প্রথম টুপল।\n    tup2: দ্বিতীয় টুপল।\n\n  Returns:\n    একটি নতুন টুপল যাতে প্রথম টুপলের উপাদানগুলির মডুলো অপারেশন করা হয়েছে।\n  \"\"\"\n  return (tup % tup2)\n\n# উদাহরণ ব্যবহার\ntup1 = (10, 20)\ntup2 = (3, 5)\nresult = tuple_modulo(tup1, tup2)\nprint(result)  # আউটপুট: (1, 2)\n```\n\nএই কোডটি `tuple_modulo` নামক একটি ফাংশন সংজ্ঞায়িত করে যা দুটি টুপল আর্গুমেন্ট হিসেবে গ্রহণ করে এবং তাদের মডুলো অপারেশন করে।  ফাংশনটি প্রথমে `tup % tup2` ব্যবহার করে প্রথম টুপলের উপাদানটিকে `tup2` দ্বারা வகு করে।  ফলাফলটি একটি নতুন টুপল হিসাবে ফেরত দেওয়া হয়।\n\nউদাহরণস্বরূপ, `tup1 = (10"
+  },
+  {
+    "id": 17,
+    "response": ""
+  },
+  {
+    "id": 18,
+    "response": ""
+  },
+  {
+    "id": 19,
+    "response": ""
+  },
+  {
+    "id": 20,
+    "response": "```python\ndef largest_subset(lst, n):\n    \"\"\"\n    একটি লিস্টের মধ্যে বৃহত্তম জোড়া বিভাজ্য উপাদান খুঁজে বের করে।\n\n    Args:\n        lst: একটি তালিকা।\n        n: তালিকার উপাদান সংখ্যা।\n\n    Returns:\n        একটি তালিকা, যেখানে লিস্টের উপাদানগুলো জোড়া বিভাজ্য।\n    \"\"\"\n\n    if not lst:\n        return []\n\n    lst.sort(reverse=True)  # ছোট থেকে বড় ক্রমে সাজানো\n    largest_pair = []\n    for i in range(n):\n        for j in range(i + 1, n):\n            if sum(lst[i:i+2]) == sum(lst[j:j+2]):\n                largest_pair = lst[i:i+2]\n                return largest_pair\n\n    return largest_pair\n```\n\nএই ফাংশনটি প্রথমে তালিকাটিকে ছোট থেকে বড় ক্রমে সাজায়। তারপর, এটি তালিকার প্রতিটি জোড়া উপাদান পরীক্ষা করে দেখে যে তারা জোড়া বিভাজ্য কিনা। যদি কোনো জোড়া বিভাজ্য হয়, তবে ফাংশনটি সেই জোড়াটিকে রিটার্ন করে। যদি কোনো জোড়া বিভাজ্য না হয়, তবে ফা"
+  },
+  {
+    "id": 21,
+    "response": ""
+  },
+  {
+    "id": 22,
+    "response": ""
+  },
+  {
+    "id": 23,
+    "response": ""
+  },
+  {
+    "id": 24,
+    "response": ""
+  },
+  {
+    "id": 25,
+    "response": ""
+  },
+  {
+    "id": 26,
+    "response": ""
+  },
+  {
+    "id": 27,
+    "response": ""
+  },
+  {
+    "id": 28,
+    "response": "```python\ndef replace_spaces(s):\n  \"\"\"\n  একটি স্ট্রিং-এর সমস্ত স্পেসকে '*' দিয়ে প্রতিস্থাপন করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    প্রতিস্থাপিত স্ট্রিং।\n  \"\"\"\n  return s.replace(\" \", \"*\")\n\n# উদাহরণ ব্যবহার\nstring = \"This is a string with spaces.\"\nnew_string = replace_spaces(string)\nprint(new_string)  # আউটপুট: This is a * string with spaces.\n```\n\nএই ফাংশনটি `replace()` মেথড ব্যবহার করে স্ট্রিং-এর মধ্যে থাকা সমস্ত স্পেসকে `*` দিয়ে প্রতিস্থাপন করে।  `replace()` মেথডটি একটি স্ট্রিং এবং একটি আর্গুমেন্ট নেয়, এবং এটি স্ট্রিং-এর মধ্যে প্রথম খুঁজে পাওয়া সমস্ত উপাদানগুলির সাথে একটি নতুন স্ট্রিং প্রদান করে।  এই ক্ষেত্রে, আমরা স্পেস (\" \") খুঁজে বের করি এবং সেগুলোকে `*` দিয়ে প্রতিস্থাপন করি।\n\nএখানে ফাংশনটি কিভাবে কাজ করে তার একটি ব্যাখ্যা দেওয়া হলো:\n\n1.  `replace_spaces(s)` ফাংশনটি একটি স্ট্রিং `s` আ"
+  },
+  {
+    "id": 29,
+    "response": ""
+  },
+  {
+    "id": 30,
+    "response": ""
+  },
+  {
+    "id": 31,
+    "response": ""
+  },
+  {
+    "id": 32,
+    "response": ""
+  },
+  {
+    "id": 33,
+    "response": ""
+  },
+  {
+    "id": 34,
+    "response": ""
+  },
+  {
+    "id": 35,
+    "response": ""
+  },
+  {
+    "id": 36,
+    "response": ""
+  },
+  {
+    "id": 37,
+    "response": "```python\ndef examplenoprofit_noloss(n, n2):\n  \"\"\"\n  একটি ফাংশন যা পরীক্ষা করে যে প্রদত্ত পরিমাণে লাভ এবং ক্ষতি আছে কিনা।\n\n  Args:\n    n: একটি সংখ্যা যা ক্ষতির পরিমাণ নির্দেশ করে।\n    n2: একটি সংখ্যা যা লাভের পরিমাণ নির্দেশ করে।\n\n  Returns:\n    True যদি n এবং n2 এর মধ্যে পার্থক্য লাভ হয়, অন্যথায় False।\n  \"\"\"\n  return n - n2 > 0\n\n# উদাহরণ ব্যবহার:\nprint(exemplenoprofit_noloss(10, 5))  # True (কারণ 10 - 5 = 5, যা লাভ)\nprint(exemplenoprofit_noloss(5, 10))  # False (কারণ 5 - 10 = -5, যা ক্ষতি)\nprint(exemplenoprofit_noloss(0, 0))   # True (কারণ 0 - 0 = 0, কোনো লাভ বা ক্ষতি নেই)\nprint(exemplenoprofit_noloss(-5, 2))  # True (কারণ -5 - 2 = -7, যা ক্ষতি)\n```\n\nএই কোডটি `exempl"
+  },
+  {
+    "id": 38,
+    "response": ""
+  },
+  {
+    "id": 39,
+    "response": "```python\ndef shorten_names(names):\n  \"\"\"\n  একটি নামের তালিকা থেকে ছোট অক্ষর দিয়ে শুরু হওয়া নামগুলি সরিয়ে দেওয়ার পরে নামের দৈর্ঘ্যের যোগফল দেয়।\n\n  Args:\n    names: নামের একটি তালিকা।\n\n  Returns:\n    নামগুলির দৈর্ঘ্যের যোগফল।\n  \"\"\"\n  shortened_names = []\n  for name in names:\n    if name[0].isalpha():\n      shortened_names.append(name[1:])  # প্রথম অক্ষরটি বাদ দিয়ে বাকি অংশ যোগ করা হচ্ছে\n    else:\n      shortened_names.append(name)\n  return sum(len(name) for name in shortened_names)\n\n# উদাহরণ ব্যবহার\nnames = [\"Alice\", \"Bob\", \"Charlie\", \"David\", \"Eve\", \"alpha\"]\nresult = shorten_names(names)\nprint(result)  # আউটপুট: 7\n```\n\nএই কোডটি প্রথমে `shorten_names` নামক একটি ফাংশন সংজ্ঞায়িত করে যা নামের একটি তালিকা ইনপুট হিসেবে নেয়।  ফাংশনটি `shortened_names` নামক একটি খালি তালিকা তৈরি করে। তারপর এটি নামের তালিকার প্রতিটি নামের উপর লুপ চা"
+  },
+  {
+    "id": 40,
+    "response": ""
+  },
+  {
+    "id": 41,
+    "response": ""
+  },
+  {
+    "id": 42,
+    "response": ""
+  },
+  {
+    "id": 43,
+    "response": "```python\ndef text_match_wordz_middle(text):\n  \"\"\"\n  একটি টেক্সটের মধ্যে 'z' যুক্ত শব্দ খুঁজে বের করে এবং সেগুলোর সাথে মিলবে।\n\n  Args:\n    text: যে টেক্সটটি পরীক্ষা করা হবে।\n\n  Returns:\n    'z' যুক্ত শব্দগুলোর একটি তালিকা।\n  \"\"\"\n  words = text.split()\n  z_words = []\n  for word in words:\n    if word.startswith('z') or word.endswith('z'):\n      z_words.append(word)\n  return z_words\n\n# Example usage:\ntext = \"This is a sample text with z words and z examples.\"\nresult = text_match_wordz_middle(text)\nprint(result)  # Output: ['z', 'z', 'z']\n```\n\nএই ফাংশনটি প্রথমে টেক্সটটিকে শব্দে বিভক্ত করে। তারপর, এটি প্রতিটি শব্দের শুরু বা শেষে 'z' আছে কিনা তা পরীক্ষা করে। যদি শব্দটি 'z' দিয়ে শুরু হয় বা শেষ হয়, তবে সেটি `z_words` তালিকায় যোগ করা হয়। সবশেষে, ফাংশনটি `z_words` তালিকাটি ফেরত"
+  },
+  {
+    "id": 44,
+    "response": ""
+  },
+  {
+    "id": 45,
+    "response": ""
+  },
+  {
+    "id": 46,
+    "response": ""
+  },
+  {
+    "id": 47,
+    "response": ""
+  },
+  {
+    "id": 48,
+    "response": ""
+  },
+  {
+    "id": 49,
+    "response": ""
+  },
+  {
+    "id": 50,
+    "response": ""
+  },
+  {
+    "id": 51,
+    "response": ""
+  },
+  {
+    "id": 52,
+    "response": ""
+  },
+  {
+    "id": 53,
+    "response": "```python\ndef grouping_dictionary(lst):\n  \"\"\"\n  একটি তালিকা থেকে কী-মান জোড়ার ক্রমকে একটি ডিকশনারিতে অন্তর্ভুক্ত করে।\n\n  Args:\n    lst: কী-মান জোড়ার একটি তালিকা।\n\n  Returns:\n    একটি ডিকশনারি যেখানে কী-মান জোড়ার ক্রমগুলি অন্তর্ভুক্ত করা হয়েছে।\n  \"\"\"\n  grouped_dict = {}\n  for key, value in lst:\n    if key in grouped_dict:\n      grouped_dict[key] += 1\n    else:\n      grouped_dict[key] = 1\n  return grouped_dict\n\n# উদাহরণ ব্যবহার\nmy_list = ['a', 'b', 'a', 'c', 'b', 'a']\nresult = grouping_dictionary(my_list)\nprint(result)  # আউটপুট: {'a': 3, 'b': 2, 'c': 1}\n```\n\nএই ফাংশনটি `grouping_dictionary` নামে পরিচিত। এটি একটি তালিকা `lst` গ্রহণ করে, যেখানে কী-মান জোড়ার একটি ক্রম রয়েছে। ফাংশনটি `grouped_dict` নামক একটি ডিকশনারি তৈরি করে। তারপর এটি তাল"
+  },
+  {
+    "id": 54,
+    "response": ""
+  },
+  {
+    "id": 55,
+    "response": "```python\ndef fifth_power_sum(n):\n  \"\"\"\n  একটি সংখ্যার পঞ্চম শক্তির যোগফল নির্ণয় করে।\n\n  Args:\n    n: একটি অঋণাত্মক পূর্ণসংখ্যা।\n\n  Returns:\n    n-তম শক্তির যোগফল।\n  \"\"\"\n  total = 0\n  for i in range(1, n + 1):\n    total += i**5\n  return total\n\n# উদাহরণ ব্যবহার:\nprint(fifth_power_sum(5))  # আউটপুট: 3125\nprint(fifth_power_sum(10)) # আউটপুট: 31250\n```\n\nএই ফাংশনটি `fifth_power_sum(n)` একটি আর্গুমেন্ট `n` নেয়, যা একটি অঋণাত্মক পূর্ণসংখ্যা। ফাংশনটি `n`-তম শক্তির যোগফল নির্ণয় করে এবং সেই যোগফলটি রিটার্ন করে।\n\nফাংশনটি নিম্নলিখিতভাবে কাজ করে:\n\n1. `total` নামক একটি ভেরিয়েবল `0` দিয়ে শুরু করা হয়। এই ভেরিয়েবলটি পঞ্চম শক্তির যোগফল সংরক্ষণের জন্য ব্যবহৃত হবে।\n2. `for` লুপ ব্যবহার করে"
+  },
+  {
+    "id": 56,
+    "response": ""
+  },
+  {
+    "id": 57,
+    "response": ""
+  },
+  {
+    "id": 58,
+    "response": ""
+  },
+  {
+    "id": 59,
+    "response": ""
+  },
+  {
+    "id": 60,
+    "response": ""
+  },
+  {
+    "id": 61,
+    "response": ""
+  },
+  {
+    "id": 62,
+    "response": "```python\ndef sorted_dict(dct):\n  \"\"\"\n  একটি অভিধানের তালিকা থেকে একটি তালিকা তৈরি করে, যেখানে কী (key) গুলোকে তাদের সংশ্লিষ্ট মান (value) এর ভিত্তিতে সাজানো হয়েছে।\n\n  Args:\n    dct: একটি অভিধান (dictionary)।\n\n  Returns:\n    একটি তালিকা যাতে অভিধানের কী গুলোকে তাদের মান অনুযায়ী সাজানো হয়েছে।\n  \"\"\"\n  sorted_keys = sorted(dct.keys())\n  sorted_values = [dct[key] for key in sorted_keys]\n  return sorted_values\n\n# Example usage:\nmy_dict = {'b': 2, 'a': 1, 'c': 3}\nsorted_list = sorted_dict(my_dict)\nprint(sorted_list)  # Output: [1, 2, 3]\n```\n\nএই ফাংশনটি প্রথমে অভিধানের কীগুলো খুঁজে বের করে এবং সেগুলোকে `sorted_keys` নামক একটি তালিকায় সংরক্ষণ করে। এরপর, এটি `dct.keys()` ব্যবহার করে কীগুলোর একটি তালিকা তৈরি করে।  তারপর, এটি একটি লিস্ট কমপ্রিহেনশন ব্যবহার করে `sorted_keys` তালিকার প্রতিটি কী-এর সাথে সংশ্লিষ্ট মান"
+  },
+  {
+    "id": 63,
+    "response": "```python\ndef find_max_val(n, n2, n3):\n  \"\"\"\n  k এর বৃহত্তম সম্ভাব্য মান খুঁজে বের করার জন্য একটি ফাংশন।\n\n  Args:\n    n: একটি সংখ্যা।\n    n2: একটি সংখ্যা।\n    n3: একটি সংখ্যা।\n\n  Returns:\n    k এর বৃহত্তম সম্ভাব্য মান।\n  \"\"\"\n\n  if n == n2 and n3 == n2:\n    return n\n  else:\n    return n + n2\n\n# উদাহরণ ব্যবহার:\nprint(find_max_val(5, 2, 3))  # আউটপুট: 5\nprint(find_max_val(5, 2, 4))  # আউটপুট: 5\nprint(find_max_val(5, 2, 5))  # আউটপুট: 5\nprint(find_max_val(5, 2, 6))  # আউটপুট: 6\n```\n\nএই ফাংশনটি `n` এবং `n2` এবং `n3` এই তিনটি সংখ্যাকে ইনপুট হিসেবে নেয়।  যদি `n` এবং `n2` এর মান"
+  },
+  {
+    "id": 64,
+    "response": ""
+  },
+  {
+    "id": 65,
+    "response": ""
+  },
+  {
+    "id": 66,
+    "response": ""
+  },
+  {
+    "id": 67,
+    "response": ""
+  },
+  {
+    "id": 68,
+    "response": ""
+  },
+  {
+    "id": 69,
+    "response": ""
+  },
+  {
+    "id": 70,
+    "response": ""
+  },
+  {
+    "id": 71,
+    "response": ""
+  },
+  {
+    "id": 72,
+    "response": "```python\ndef max_of_three(n, n2, n3):\n  \"\"\"\n  এই ফাংশনটি তিনটি সংখ্যার মধ্যে সর্বোচ্চ সংখ্যাটি খুঁজে বের করে।\n\n  Args:\n    n: প্রথম সংখ্যা।\n    n2: দ্বিতীয় সংখ্যা।\n    n3: তৃতীয় সংখ্যা।\n\n  Returns:\n    সর্বোচ্চ সংখ্যা।\n  \"\"\"\n  if n > n2 and n > n3:\n    return n\n  elif n2 > n3:\n    return n2\n  else:\n    return n3\n\n# উদাহরণ ব্যবহার:\nprint(max_of_three(5, 2, 8))  # আউটপুট: 8\nprint(max_of_three(1, 9, 3))  # আউটপুট: 9\nprint(max_of_three(3, 7, 1))  # আউটপুট: 7\n```\n\nএই ফাংশনটি `max_of_three` নামে পরিচিত। এটি তিনটি আর্গুমেন্ট নেয়: `n`, `n2`, এবং `n3`, যা তিনটি সংখ্যার নাম। ফাংশনটি প্রথমে পরীক্ষা করে যে `n` এর"
+  },
+  {
+    "id": 73,
+    "response": ""
+  },
+  {
+    "id": 74,
+    "response": ""
+  },
+  {
+    "id": 75,
+    "response": "```python\ndef sum_nums(n, n2, n3, n4):\n  \"\"\"\n  দুটি পূর্ণসংখ্যার যোগফল, যদি যোগফল একটি নির্দিষ্ট পরিসরের মধ্যে থাকে তবে 20 প্রদান করে।\n\n  Args:\n    n: প্রথম পূর্ণসংখ্যা।\n    n2: দ্বিতীয় পূর্ণসংখ্যা।\n    n3: তৃতীয় পূর্ণসংখ্যা।\n    n4: চতুর্থ পূর্ণসংখ্যা।\n\n  Returns:\n    যদি যোগফল পরিসরের মধ্যে থাকে তবে 20 প্রদান করে, অন্যথায় n এর মান ফেরত দেয়।\n  \"\"\"\n  sum_n = n + n2 + n3 + n4\n  if sum_n <= 20:\n    return sum_n\n  else:\n    return 20\n\n# উদাহরণ ব্যবহার\nprint(sum_nums(5, 2, 7, 1))  # আউটপুট: 20\nprint(sum_nums(10, 5, 12, 15)) # আউটপুট: 20\nprint(sum_nums(1, 1, 1, 1))  # আউটপুট: 4\n```\n\nএই কোডটি প্রথমে `"
+  },
+  {
+    "id": 76,
+    "response": "```python\nimport re\n\ndef remove_extra_char(s):\n  \"\"\"\n  একটি স্ট্রিং থেকে রেজেক্স ব্যবহার করে আলফানিউমেরিক অক্ষর ছাড়া অন্য সব কিছু সরিয়ে ফেলে।\n\n  Args:\n    s: যে স্ট্রিং থেকে আলফানিউমেরিক অক্ষর সরানো হবে।\n\n  Returns:\n    আলফানিউমেরিক অক্ষর ছাড়া স্ট্রিং।\n  \"\"\"\n  return re.sub(r'[^a-zA-Z0-9]', '', s)\n\n# উদাহরণ ব্যবহার\nstring = \"Hello, World! 123\"\nresult = remove_extra_char(string)\nprint(result)  # আউটপুট: HelloWorld123\n```\n\nএই ফাংশনটি `re` মডিউল ব্যবহার করে `re.sub()` ফাংশন ব্যবহার করে একটি স্ট্রিং থেকে আলফানিউমেরিক অক্ষর সরিয়ে দেয়।  `r'[^a-zA-Z0-9]'` হলো রেজেক্স প্যাটার্ন।  এটি `a-z`, `A-Z`, `0-9` এর মধ্যে যেকোনো ক্যারেক্টারকে বাদ দেয়।  `[^...]` মানে হলো \""
+  },
+  {
+    "id": 77,
+    "response": ""
+  },
+  {
+    "id": 78,
+    "response": ""
+  },
+  {
+    "id": 79,
+    "response": "```python\ndef access_key(dct, n):\n  \"\"\"\n  ডিকশনারি কী-এর উপাদানগুলিকে সূচক অনুসারে অ্যাক্সেস করে।\n\n  Args:\n    dct: ডিকশনারি।\n    n: অ্যাক্সেস করার জন্য কী-এর সূচক।\n\n  Returns:\n    ডিকশনারির কী-এর উপাদান, অথবা কী না থাকলে None।\n  \"\"\"\n  if n in dct:\n    return dct[n]\n  else:\n    return None\n\n# উদাহরণ ব্যবহার\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\nprint(access_key(my_dict, 0))  # আউটপুট: 1\nprint(access_key(my_dict, 1))  # আউটপুট: 2\nprint(access_key(my_dict, 2))  # আউটপুট: 3\nprint(access_key(my_dict, 3))  # আউটপুট: None\n```\n\nএই ফাংশনটি `dct` নামক একটি ডিকশনারি গ্রহণ করে এবং `n` নামক একটি কী-এর সূচক নেয়।  `"
+  },
+  {
+    "id": 80,
+    "response": ""
+  },
+  {
+    "id": 81,
+    "response": ""
+  },
+  {
+    "id": 82,
+    "response": ""
+  },
+  {
+    "id": 83,
+    "response": ""
+  },
+  {
+    "id": 84,
+    "response": ""
+  },
+  {
+    "id": 85,
+    "response": ""
+  },
+  {
+    "id": 86,
+    "response": ""
+  },
+  {
+    "id": 87,
+    "response": ""
+  },
+  {
+    "id": 88,
+    "response": ""
+  },
+  {
+    "id": 89,
+    "response": "```python\ndef min_jumps(lst, n):\n    \"\"\"\n    একটি পূর্ণসংখ্যা অ্যারের জন্য অ্যারের শেষে পৌঁছানোর জন্য সর্বনিম্ন সংখ্যক লাফ খুঁজে বের করুন।\n\n    Args:\n        lst: পূর্ণসংখ্যা অ্যারে।\n        n: অ্যারের দৈর্ঘ্য।\n\n    Returns:\n        অ্যারের শেষে পৌঁছানোর জন্য সর্বনিম্ন সংখ্যক লাফের সংখ্যা।\n    \"\"\"\n\n    if n <= 1:\n        return 0\n\n    jumps = 0\n    current_reach = 0\n    max_reach = 0\n\n    for i in range(n - 1):\n        max_reach = max(max_reach, i + lst[i])\n\n        if i == current_reach:\n            jumps += 1\n            current_reach = max_reach\n\n            if current_reach >= n - 1:\n                return jumps\n\n    return jumps\n```\n\nএই ফাংশনটি `min_jumps(lst, n)` একটি পূর্ণসংখ্যা অ্যারের জন্য অ্যারের শেষে পৌঁছানোর জন্য সর্বনিম্ন সংখ্যক লাফ খুঁজে বের করে।\n\nফাংশনটি প্রথমে পরীক্ষা করে দেখে যে অ্যারের দৈর্ঘ্য 1 বা তার কম। যদি এটি সত্য হয়, তাহলে ফাংশন"
+  },
+  {
+    "id": 90,
+    "response": "```python\ndef mul_consecutive_nums(lst):\n  \"\"\"\n  একটি তালিকার পরপর সংখ্যাগুলোকে গুণ করে এবং ফলাফল ফেরত দেয়।\n\n  Args:\n    lst: সংখ্যার একটি তালিকা।\n\n  Returns:\n    একটি নতুন তালিকা যেখানে প্রতিটি সংখ্যাকে তার পরবর্তী সংখ্যা দিয়ে গুণ করা হয়েছে।\n  \"\"\"\n  result = []\n  for i in range(len(lst) - 1):\n    result.append(lst[i] * lst[i+1])\n  return result\n\n# উদাহরণ ব্যবহার\nnumbers = [1, 2, 3, 4, 5]\nmultiplied_numbers = mul_consecutive_nums(numbers)\nprint(multiplied_numbers)  # আউটপুট: [2, 4, 6, 8, 10]\n```\n\nএই ফাংশনটি `mul_consecutive_nums` নামে তৈরি করা হয়েছে। এটি একটি তালিকা `lst` গ্রহণ করে এবং তালিকার প্রতিটি সংখ্যার সাথে তার পরবর্তী সংখ্যার গুণ করে একটি নতুন তালিকা তৈরি করে।  \nএখানে, `result` নামক একটি খালি তালিকা তৈরি করা হয়।  তারপর, `for` লুপ ব্যবহার করে তালিকার প্রতিটি সংখ্যার সাথে তার"
+  },
+  {
+    "id": 91,
+    "response": ""
+  },
+  {
+    "id": 92,
+    "response": ""
+  },
+  {
+    "id": 93,
+    "response": ""
+  },
+  {
+    "id": 94,
+    "response": "```python\ndef extract_unique(dct):\n  \"\"\"\n  একটি অভিধান থেকে অনন্য মান বের করে।\n\n  Args:\n    dct: একটি ডিকশনারি।\n\n  Returns:\n    একটি নতুন ডিকশনারি যাতে শুধুমাত্র অনন্য মান থাকে।\n  \"\"\"\n  unique_dict = {}\n  for key, value in dct.items():\n    if key not in unique_dict:\n      unique_dict[key] = value\n  return unique_dict\n\n# উদাহরণ ব্যবহার\nmy_dict = {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}\nunique_dict = extract_unique(my_dict)\nprint(unique_dict)  # আউটপুট: {'a': 1, 'b': 2, 'd': 3}\n```\n\nএই ফাংশনটি `extract_unique` নামে তৈরি করা হয়েছে, যা একটি ডিকশনারি ইনপুট হিসেবে নেয় এবং একটি নতুন ডিকশনারি তৈরি করে যেখানে শুধুমাত্র অনন্য মানগুলো থাকবে।\n\nফাংশনটি নিম্নলিখিতভাবে কাজ করে:\n\n1.  `unique_dict = {}`: একটি খালি ডিক"
+  },
+  {
+    "id": 95,
+    "response": ""
+  },
+  {
+    "id": 96,
+    "response": "```python\ndef zip_list(list1, list2):\n  \"\"\"\n  দুটি তালিকাকে একসাথে সংযুক্ত করে।\n\n  Args:\n    list1: প্রথম তালিকা।\n    list2: দ্বিতীয় তালিকা।\n\n  Returns:\n    একটি নতুন তালিকা যাতে list1 এবং list2-এর উপাদানগুলো যুক্ত করা হয়েছে।\n  \"\"\"\n  new_list = []\n  for i in range(len(list1)):\n    new_list.append(list1[i])\n    new_list.append(list2[i])\n  return new_list\n\n# উদাহরণ ব্যবহার:\nlist1 = [1, 2, 3]\nlist2 = ['a', 'b', 'c']\nresult = zip_list(list1, list2)\nprint(result)  # আউটপুট: [1, 2, 3, 'a', 'b', 'c']\n```\n\nএই ফাংশনটি `zip_list` নামে পরিচিত। এটি দুটি তালিকা `list1` এবং `list2` গ্রহণ করে এবং একটি নতুন তালিকা তৈরি করে যেখানে `list1` এবং `list2` থেকে আসা উপাদানগুলো যুক্ত করা হয়।\n\nফাংশনটি"
+  },
+  {
+    "id": 97,
+    "response": "```python\ndef count_even(lst):\n  \"\"\"\n  ল্যাম্বদা ফাংশন ব্যবহার করে একটি তালিকার সমসংখ্যক উপাদান খুঁজে বের করে।\n\n  Args:\n    lst: একটি তালিকা।\n\n  Returns:\n    তালিকার সমসংখ্যক উপাদানগুলির সংখ্যা।\n  \"\"\"\n  count = 0\n  for element in lst:\n    if element % 2 == 0:\n      count += 1\n  return count\n\n# উদাহরণ ব্যবহার\nlst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nprint(count_even(lst))  # আউটপুট: 5\n```\n\nএই ফাংশনটি `count_even` নামে পরিচিত। এটি একটি তালিকা `lst` গ্রহণ করে এবং তালিকার প্রতিটি উপাদানের জন্য ল্যাম্বদা ফাংশন ব্যবহার করে তালিকার সমসংখ্যক উপাদানগুলির সংখ্যা গণনা করে। ল্যাম্বদা ফাংশন `(x if x % 2 == 0 else 0)` ব্যবহার করে, আমরা প্রথমে পরীক্ষা করি যে উপাদানটি জোড় সংখ্যা কিনা। যদি এটি জোড় হয়, তাহলে আমরা `count` ভেরিয়েবলের মান ১"
+  },
+  {
+    "id": 98,
+    "response": "```python\ndef sort_dict_item(dct):\n  \"\"\"\n  একটি অভিধানের জন্য টিপল কী-এর টুপল পণ্য দ্বারা অভিধানের আইটেমগুলি বাছাই করে।\n\n  Args:\n    dct: একটি টিপল অভিধান।\n\n  Returns:\n    একটি নতুন অভিধান যেখানে টিপল কী-এর টুপল পণ্যগুলি সাজানো হয়েছে।\n  \"\"\"\n  sorted_items = {}\n  for key, value in dct.items():\n    for tup in value:\n      if tup not in sorted_items:\n        sorted_items[tup] = key\n  return sorted_items\n\n# উদাহরণ ব্যবহার\nmy_dict = {'a': 'b', 'b': 'c', 'c': 'a', 'd': 'e'}\nsorted_dict = sort_dict_item(my_dict)\nprint(sorted_dict)  # আউটপুট: {'a': 'b', 'b': 'c', 'c': 'a'}\n```\n\nএই কোডটি প্রথমে একটি খালি অভিধান `sorted_items` তৈরি করে। তারপর, এটি অভিধানের প্রতিটি কী-এর উপর লুপ করে এবং প্রতিটি ভ্যালু"
+  },
+  {
+    "id": 99,
+    "response": ""
+  },
+  {
+    "id": 100,
+    "response": "```python\ndef count_range_in_list(lst, n, n2):\n  \"\"\"\n  একটি নির্দিষ্ট পরিসরের মধ্যে থাকা তালিকার উপাদানগুলির সংখ্যা গণনা করে।\n\n  Args:\n    lst: যে তালিকা গণনা করা হবে।\n    n: পরিসরের মধ্যে থাকা উপাদানগুলির সর্বনিম্ন মান।\n    n2: পরিসরের মধ্যে থাকা উপাদানগুলির সর্বোচ্চ মান।\n\n  Returns:\n    তালিকার উপাদানগুলির সংখ্যা।\n  \"\"\"\n  count = 0\n  for element in lst:\n    if element >= n and element <= n2:\n      count += 1\n  return count\n\n# উদাহরণ ব্যবহার:\nmy_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = 5\nn2 = 10\nresult = count_range_in_list(my_list, n, n2)\nprint(result)  # আউটপুট: 5\n```\n\nএই ফাংশনটি `count_range_in_list` একটি তালিকা এবং দুটি মান `n` এবং `n2` গ্রহণ করে। এটি তালিকার প্রতিটি উপাদানের মধ্যে"
+  },
+  {
+    "id": 101,
+    "response": ""
+  },
+  {
+    "id": 102,
+    "response": ""
+  },
+  {
+    "id": 103,
+    "response": ""
+  },
+  {
+    "id": 104,
+    "response": ""
+  },
+  {
+    "id": 105,
+    "response": ""
+  },
+  {
+    "id": 106,
+    "response": ""
+  },
+  {
+    "id": 107,
+    "response": ""
+  },
+  {
+    "id": 108,
+    "response": ""
+  },
+  {
+    "id": 109,
+    "response": ""
+  },
+  {
+    "id": 110,
+    "response": ""
+  },
+  {
+    "id": 111,
+    "response": ""
+  },
+  {
+    "id": 112,
+    "response": ""
+  },
+  {
+    "id": 113,
+    "response": ""
+  },
+  {
+    "id": 114,
+    "response": ""
+  },
+  {
+    "id": 115,
+    "response": "```python\ndef str_to_tuple(s):\n  \"\"\"\n  একটি স্ট্রিংকে একটি টিপলে রূপান্তর করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    একটি টিপলের তালিকা।\n  \"\"\"\n  return list(map(int, s.split()))\n\n# উদাহরণ ব্যবহার\nstr_to_tuple(\"1 2 3 4 5\")\n# আউটপুট: [1, 2, 3, 4, 5]\n```\n\nএই ফাংশনটি `split()` ফাংশন ব্যবহার করে স্ট্রিংটিকে শব্দে বিভক্ত করে এবং তারপর `map()` ফাংশন ব্যবহার করে প্রতিটি শব্দকে একটি পূর্ণসংখ্যায় রূপান্তর করে।  `map()` ফাংশনটি একটি ফাংশন (এখানে `int`) এবং একটি iterable (এখানে `s.split()`) গ্রহণ করে এবং iterable-এর প্রতিটি উপাদানের জন্য ফাংশনটি প্রয়োগ করে।  `map()` ফাংশনটি একটি map অবজেক্ট প্রদান করে, যা একটি টাপল (tuple) হিসাবে রূপান্তরিত হয়।  `list()` ফাংশন ব্যবহার করে টাপলটিকে একটি লিস্টে রূপান্তরিত করা হয়।\n\nএখানে অন্য একটি উদাহরণ দেওয়া"
+  },
+  {
+    "id": 116,
+    "response": ""
+  },
+  {
+    "id": 117,
+    "response": ""
+  },
+  {
+    "id": 118,
+    "response": "```python\ndef alternate_elements(lst):\n  \"\"\"\n  একটি তালিকা থেকে বিকল্প উপাদান গ্রহণ করে।\n\n  Args:\n    lst: একটি তালিকা।\n\n  Returns:\n    একটি নতুন তালিকা যাতে মূল তালিকার উপাদানগুলির বিকল্প উপাদানগুলি রয়েছে।\n  \"\"\"\n  new_list = []\n  for i in range(len(lst)):\n    if i % 2 == 0:\n      new_list.append(lst[i])\n  return new_list\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 5, 6]\nalternate_elements_list = alternate_elements(my_list)\nprint(alternate_elements_list)  # Output: [1, 4, 6, 2, 5]\n```\n\nএই ফাংশনটি `alternate_elements` নামে তৈরি করা হয়েছে। এটি একটি তালিকা `lst` ইনপুট হিসেবে নেয়।  \nফাংশনটি `new_list` নামে একটি নতুন তালিকা তৈরি করে। এরপর, এটি মূল তালিকার প্রতিটি উপাদানের জন্য লুপ চালায়। যদি উপাদানটির ইন্ডেক্স জোড় হয়, তবে সেই উপাদানটি `new_list"
+  },
+  {
+    "id": 119,
+    "response": ""
+  },
+  {
+    "id": 120,
+    "response": ""
+  },
+  {
+    "id": 121,
+    "response": ""
+  },
+  {
+    "id": 122,
+    "response": "```python\ndef filter_data(dct, n, n2):\n  \"\"\"\n  একটি ডিকশনারি থেকে নির্দিষ্ট উচ্চতা এবং প্রস্থ ফিল্টার করে একটি নতুন ডিকশনারি তৈরি করে।\n\n  Args:\n    dct: একটি ডিকশনারি, যেটিতে ফিল্টার করার জন্য ডেটা থাকবে।\n    n: ফিল্টার করার জন্য উচ্চতার সংখ্যা।\n    n2: ফিল্টার করার জন্য প্রস্থের সংখ্যা।\n\n  Returns:\n    একটি নতুন ডিকশনারি যাতে শুধুমাত্র n এবং n2 এর মানগুলি অন্তর্ভুক্ত করা হয়েছে।\n  \"\"\"\n  filtered_data = {}\n  for key, value in dct.items():\n    if n == n2:\n      filtered_data[key] = value\n  return filtered_data\n\n# উদাহরণ ব্যবহার:\nmy_dict = {'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': 50}\nfiltered_dict = filter_data(my_dict, 2, 3)\nprint(filtered_dict)  # আউটপুট: {'b': 20, 'd': 40}\n```"
+  },
+  {
+    "id": 123,
+    "response": ""
+  },
+  {
+    "id": 124,
+    "response": ""
+  },
+  {
+    "id": 125,
+    "response": ""
+  },
+  {
+    "id": 126,
+    "response": ""
+  },
+  {
+    "id": 127,
+    "response": ""
+  },
+  {
+    "id": 128,
+    "response": "```python\ndef sum_list(lst, lst2):\n  \"\"\"\n  দুটি তালিকার উপাদান যোগ করে।\n\n  Args:\n    lst: প্রথম তালিকা।\n    lst2: দ্বিতীয় তালিকা।\n\n  Returns:\n    দুটি তালিকার যোগফল।\n  \"\"\"\n  sum_list = sum(lst) + sum(lst2)\n  return sum_list\n\n# উদাহরণ ব্যবহার\nlist1 = [1, 2, 3, 4, 5]\nlist2 = [6, 7, 8, 9, 10]\nresult = sum_list(list1, list2)\nprint(result)  # আউটপুট: 36\n```\n\nএই কোডটি `sum_list` নামে একটি ফাংশন সংজ্ঞায়িত করে যা দুটি তালিকা `lst` এবং `lst2` ইনপুট হিসেবে নেয়। ফাংশনটি `sum()` ফাংশন ব্যবহার করে উভয় তালিকার উপাদানগুলির যোগফল নির্ণয় করে এবং তারপর সেই যোগফলটি ফেরত দেয়।\n\nউদাহরণস্বরূপ, `list1 = [1, 2, 3, 4, 5]` এবং `list2 = [6, 7"
+  },
+  {
+    "id": 129,
+    "response": ""
+  },
+  {
+    "id": 130,
+    "response": ""
+  },
+  {
+    "id": 131,
+    "response": ""
+  },
+  {
+    "id": 132,
+    "response": "```python\ndef replace_specialchar(s):\n  \"\"\"\n  একটি স্ট্রিং-এ স্পেস, কমা বা বিন্দুগুলির সমস্ত ঘটনাকে একটি কলোনে প্রতিস্থাপন করে।\n\n  Args:\n    s: যে স্ট্রিংটি পরিবর্তন করতে হবে।\n\n  Returns:\n    একটি নতুন স্ট্রিং যেখানে স্পেস, কমা বা বিন্দুগুলি প্রতিস্থাপন করা হয়েছে।\n  \"\"\"\n  new_string = \"\"\n  for char in s:\n    if char == ' ':\n      new_string += ' '\n    elif char == ',':\n      new_string += ' '\n    elif char == '.':\n      new_string += ' '\n    else:\n      new_string += char\n  return new_string\n\n# Example usage:\nstring = \"Hello, world!\"\nresult = replace_specialchar(string)\nprint(result)  # Output: Hello, world!\n```\n\nএই ফাংশনটি প্রথমে একটি খালি স্ট্রিং `new_string` তৈরি করে। তারপর, এটি ইনপুট স্ট্রিং `s` এর প্রতিটি অক্ষরের উপর লুপ চালায়। যদি অক্ষরটি একটি স্পেস (' ') হয়, তবে `new_"
+  },
+  {
+    "id": 133,
+    "response": ""
+  },
+  {
+    "id": 134,
+    "response": ""
+  },
+  {
+    "id": 135,
+    "response": ""
+  },
+  {
+    "id": 136,
+    "response": ""
+  },
+  {
+    "id": 137,
+    "response": ""
+  },
+  {
+    "id": 138,
+    "response": ""
+  },
+  {
+    "id": 139,
+    "response": ""
+  },
+  {
+    "id": 140,
+    "response": "```python\ndef tuple_to_dict(tup):\n  \"\"\"\n  একটি টিপলকে সংলগ্ন উপাদান ব্যবহার করে একটি কী-মান অভিধানে রূপান্তর করে।\n\n  Args:\n    tup: টিপল।\n\n  Returns:\n    একটি ডিকশনারি, যেখানে টিপল উপাদানগুলি কী এবং তাদের সংশ্লিষ্ট মানগুলি মান।\n  \"\"\"\n  return {element: element for element in tup}\n\n# উদাহরণ ব্যবহার\ntuple_to_dict((1, 2, 3))\n# আউটপুট: {1: 1, 2: 2, 3: 3}\n\ntuple_to_dict((1, \"a\", 3.14))\n# আউটপুট: {1: 'a', 2: 'a', 3.14: 'a'}\n\ntuple_to_dict((True, False, 1))\n# আউটপুট: {True: True, False: False, 1: 1}\n```\n\nএই ফাংশনটি `tuple_to_dict` নামে পরিচিত। এটি একটি টিপলকে ইনপুট হিসেবে নেয় এবং একটি ডিকশনারি তৈরি করে যেখানে টিপল উপাদানগুলি কী এবং তাদের"
+  },
+  {
+    "id": 141,
+    "response": ""
+  },
+  {
+    "id": 142,
+    "response": ""
+  },
+  {
+    "id": 143,
+    "response": ""
+  },
+  {
+    "id": 144,
+    "response": ""
+  },
+  {
+    "id": 145,
+    "response": "```python\ndef divisible_by_digits(n, n2):\n  \"\"\"\n  একটি নির্দিষ্ট পরিসরের মধ্যে সংখ্যা খুঁজে বের করার জন্য একটি ফাংশন।\n\n  Args:\n    n: যে সংখ্যাটি পরীক্ষা করতে হবে।\n    n2: যে সংখ্যাগুলোর দ্বারা সংখ্যাটি বিভাজ্য।\n\n  Returns:\n    একটি তালিকা, যেখানে n এর মধ্যে বিভাজ্য সংখ্যাগুলো রয়েছে।\n  \"\"\"\n  divisible_numbers = []\n  for i in range(1, n + 1):\n    if n % i == 0:\n      divisible_numbers.append(i)\n  return divisible_numbers\n\n# Example usage:\nprint(divisible_by_digits(12, 2))  # Output: [2, 3, 4, 6, 12]\nprint(divisible_by_digits(10, 2))  # Output: [2, 4, 6, 10]\nprint(divisible_by_digits(15, 3))  # Output: [3, 5, 15]\n```\n\nএই ফাংশনটি প্রথমে একটি খালি তালিকা `divisible"
+  },
+  {
+    "id": 146,
+    "response": ""
+  },
+  {
+    "id": 147,
+    "response": ""
+  },
+  {
+    "id": 148,
+    "response": "```python\ndef capital_words_spaces(s):\n  \"\"\"\n  একটি স্ট্রিং-এ বড় অক্ষর দিয়ে শুরু হওয়া শব্দের মধ্যে স্পেস রাখার জন্য একটি ফাংশন।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    একটি নতুন স্ট্রিং যেখানে বড় অক্ষর দিয়ে শুরু হওয়া শব্দের মধ্যে স্পেস রাখা হয়েছে।\n  \"\"\"\n  result = \"\"\n  words = s.split()\n  for word in words:\n    if word[0].isupper():\n      result += \" \" + word\n    else:\n      result += word\n  return result\n\n# উদাহরণ ব্যবহার\nprint(capital_words_spaces(\"capital_words_spaces\"))\nprint(capital_words_spaces(\"Hello World\"))\nprint(capital_words_spaces(\"  Hello World  \"))\n```\n\nএই ফাংশনটি প্রথমে স্ট্রিংটিকে স্পেস দিয়ে আলাদা করে শব্দগুলোর একটি তালিকা তৈরি করে। তারপর, এটি প্রতিটি শব্দের প্রথম অক্ষরটি পরীক্ষা করে দেখে যে এটি বড় হাতের অক্ষর কিনা। যদি এটি বড় হাতের অক্ষর হয়, তাহলে এটি সেই অক্ষরটিকে স্পেস দিয়ে যুক্ত করে এবং বাকি অংশটি অপরিবর্তিত রাখে। অন্যথায়, এটি শব্দটি অপরিবর্তিত রাখে।"
+  },
+  {
+    "id": 149,
+    "response": ""
+  },
+  {
+    "id": 150,
+    "response": "```python\ndef add_tuple(lst, tup):\n  \"\"\"\n  একটি তালিকা এবং একটি টিউপেল যোগ করে।\n\n  Args:\n    lst: একটি তালিকা।\n    tup: একটি টিউপেল।\n\n  Returns:\n    একটি নতুন তালিকা যাতে টিউপেলটি যোগ করা হয়েছে।\n  \"\"\"\n  new_list = lst + tup\n  return new_list\n\n# উদাহরণ ব্যবহার:\nmy_list = [1, 2, 3]\nmy_tuple = (4, 5, 6)\nresult = add_tuple(my_list, my_tuple)\nprint(result)  # আউটপুট: [1, 2, 3, 4, 5, 6]\n```\n\nএই ফাংশনটি `add_tuple` নামক একটি ফাংশন সংজ্ঞায়িত করে যা দুটি আর্গুমেন্ট গ্রহণ করে:\n\n*   `lst`: একটি তালিকা যা যোগ করা হবে।\n*   `tup`: একটি টিউপেল যা যোগ করা হবে।\n\nফাংশনটি প্রথমে `lst` এবং `tup` এর একটি নতুন তালিকা তৈরি করে। তারপর, এটি `lst` এবং `tup` উভয়ই"
+  },
+  {
+    "id": 151,
+    "response": ""
+  },
+  {
+    "id": 152,
+    "response": ""
+  },
+  {
+    "id": 153,
+    "response": "```python\ndef min_k(lst, n):\n    \"\"\"\n    একটি টুপল তালিকা থেকে k সর্বনিম্ন মানের রেকর্ড খুঁজে বের করে।\n\n    Args:\n        lst: টুপল তালিকা।\n        n: তালিকার উপাদান সংখ্যা।\n\n    Returns:\n        তালিকার k সর্বনিম্ন মানের রেকর্ডগুলির একটি তালিকা।\n    \"\"\"\n    if n == 0:\n        return []\n\n    if n == 1:\n        return lst\n\n    # টুপল তালিকা থেকে k সর্বনিম্ন মানের রেকর্ডগুলি বের করার জন্য একটি তালিকা তৈরি করুন\n    temp = sorted(lst)\n    return temp[:n]\n\n# উদাহরণ ব্যবহার\nlst = [3, 1, 4, 1, 5, 9, 2, 6]\nn = 3\nresult = min_k(lst, n)\nprint(result)  # আউটপুট: [1, 1, 2]\n```\n\nএই ফাংশনটি প্রথমে পরীক্ষা করে দেখে যে `n` এর মান 0 কিনা। যদি এটি 0 হয়, তাহলে ফাংশনটি একটি খালি তালিকা ফেরত দেয়। যদি `n` এর মান 1 হয়, তাহলে ফাংশনটি তালিকার প্রথম উপাদান"
+  },
+  {
+    "id": 154,
+    "response": ""
+  },
+  {
+    "id": 155,
+    "response": ""
+  },
+  {
+    "id": 156,
+    "response": "```python\ndef text_match_zero_one(s):\n  \"\"\"\n  একটি স্ট্রিংয়ের সাথে মিলে যায় যার মধ্যে একটি শূন্য বা 'বি' থাকে।\n\n  Args:\n    s: ইনপুট স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি মিলে যায় তবে True, অন্যথায় False।\n  \"\"\"\n  for char in s:\n    if char == '0' or char == 'b':\n      return True\n  return False\n\n# উদাহরণ ব্যবহার\nprint(text_match_zero_one(\"01234567890\"))  # True\nprint(text_match_zero_one(\"1234567890\"))  # False\nprint(text_match_zero_one(\"0b1234567890\")) # True\nprint(text_match_zero_one(\"1234567890\"))  # False\nprint(text_match_zero_one(\"\")) # False\n```\n\nএই ফাংশনটি `text_match_zero_one` একটি স্ট্রিংয়ের সাথে মিলে যায় যার মধ্যে একটি শূন্য বা 'বি'"
+  },
+  {
+    "id": 157,
+    "response": ""
+  },
+  {
+    "id": 158,
+    "response": ""
+  },
+  {
+    "id": 159,
+    "response": "```python\ndef is_decimal(s):\n  \"\"\"\n  একটি স্ট্রিং দশমিক কিনা তা পরীক্ষা করে।\n\n  Args:\n    s: পরীক্ষা করার জন্য স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি দশমিক হয় তবে True, অন্যথায় False।\n  \"\"\"\n  try:\n    float(s)  # স্ট্রিংটিকে ফ্লোট এ রূপান্তর করার চেষ্টা করুন\n    return True\n  except ValueError:\n    return False\n\n# উদাহরণ ব্যবহার\nprint(is_decimal(\"123\"))  # True\nprint(is_decimal(\"3.14\")) # True\nprint(is_decimal(\"abc\"))  # False\nprint(is_decimal(\"123.45\")) # True\nprint(is_decimal(\"123e5\")) # True\nprint(is_decimal(\"123.456\")) # False\n```\n\nএই ফাংশনটি `is_decimal(s)` একটি স্ট্রিং `s` গ্রহণ করে এবং নিম্নলিখিতভাবে কাজ করে:\n\n1.  `try` ব্লকের মধ্যে, `float(s)` ব্যবহার করে স্ট্রিংটিকে ফ্লোটে রূপান্তর করার চেষ্টা করা হয়। যদি"
+  },
+  {
+    "id": 160,
+    "response": ""
+  },
+  {
+    "id": 161,
+    "response": "```python\nimport math\n\ndef arc_length(n, n2):\n  \"\"\"\n  একটি কোণের ক্ষেত্রফল নির্ণয় করে।\n\n  Args:\n    n: কোণের ব্যাসার্ধ (radius)।\n    n2: কোণের পরিধি (circumference)।\n\n  Returns:\n    কোণের ক্ষেত্রফল।\n  \"\"\"\n  if n2 == 0:\n    return 0  # শূন্য পরিধি এর জন্য ক্ষেত্রফল 0\n  else:\n    return (n * math.pi * n2) / 2\n\n# উদাহরণ ব্যবহার\nradius = 5\ncircumference = 10\narea = arc_length(radius, circumference)\nprint(f\"{radius} কোণের ক্ষেত্রফল: {area}\")\n```\n\nএই কোডটি প্রথমে `math` মডিউলটি ইম্পোর্ট করে, যা π (pi) এর মান গণনার জন্য ব্যবহার করা হয়।  \n`arc_length(n, n2)` ফাংশনটি দুটি আর্গুমেন্ট নেয়: `n` (কোণের ব্যাসার্ধ) এবং `n2` (কোণের পরিধি)।  \nফাংশনটি প্রথমে পরীক্ষা করে দেখে যে `n2` শূন্য কিনা।"
+  },
+  {
+    "id": 162,
+    "response": "```python\ndef check_monthnumber_number(n):\n  \"\"\"\n  একটি সংখ্যাটি ৩০ দিনের বেশি কিনা তা পরীক্ষা করে।\n\n  Args:\n    n: একটি পূর্ণসংখ্যা।\n\n  Returns:\n    যদি সংখ্যাটি ৩০ দিনের বেশি হয়, তাহলে True, অন্যথায় False।\n  \"\"\"\n  if n >= 31:\n    return True\n  else:\n    return False\n\n# উদাহরণ ব্যবহার:\nprint(check_monthnumber_number(31))  # আউটপুট: True\nprint(check_monthnumber_number(28))  # আউটপুট: True\nprint(check_monthnumber_number(30))  # আউটপুট: True\nprint(check_monthnumber_number(31))  # আউটপুট: False\nprint(check_monthnumber_number(32))  # আউটপুট: False\n```\n\nএই ফাংশনটি `check_monthnumber_number` নামে সংজ্ঞায়িত করা হয়েছে, যা একটি সংখ্যা `n` গ্রহণ করে।  ফাংশনটি প্রথমে পরীক্ষা করে দেখে যে সংখ্যাটি ৩০ দিনের বেশি কিনা। যদি এটি ৩০ দিনের বেশি হয়, তাহলে ফাংশনটি `True`"
+  },
+  {
+    "id": 163,
+    "response": ""
+  },
+  {
+    "id": 164,
+    "response": ""
+  },
+  {
+    "id": 165,
+    "response": ""
+  },
+  {
+    "id": 166,
+    "response": ""
+  },
+  {
+    "id": 167,
+    "response": ""
+  },
+  {
+    "id": 168,
+    "response": ""
+  },
+  {
+    "id": 169,
+    "response": ""
+  },
+  {
+    "id": 170,
+    "response": ""
+  },
+  {
+    "id": 171,
+    "response": ""
+  },
+  {
+    "id": 172,
+    "response": "```python\ndef remove_length(s, n):\n  \"\"\"\n  একটি স্ট্রিং থেকে k দৈর্ঘ্যের সমস্ত শব্দ সরিয়ে দেয়।\n\n  Args:\n    s: ইনপুট স্ট্রিং।\n    n: সরানোর জন্য শব্দ সংখ্যা।\n\n  Returns:\n    s থেকে k দৈর্ঘ্যের শব্দগুলি সরিয়ে ফেলার পরে স্ট্রিং।\n  \"\"\"\n  if n > len(s):\n    return \"\"  # n এর মান স্ট্রিং এর চেয়ে বড় হলে, স্ট্রিংটি খালি হবে\n  \n  words = s.split()\n  new_words = []\n  for word in words:\n    if len(word) > n:\n      continue\n    new_words.append(word[:n])\n  return \" \".join(new_words)\n\n# উদাহরণ ব্যবহার\nstring = \"This is a string with some words\"\nn = 3\nresult = remove_length(string, n)\nprint(result)  # আউটপুট: This is a string with some words\n```\n\nএই ফাংশনটি প্রথমে পরীক্ষা করে দেখে যে `n` এর মান স্ট্রিংয়ের দৈর্ঘ্যের চেয়ে বড় কিনা। যদি এটি বড় হয়,"
+  },
+  {
+    "id": 173,
+    "response": ""
+  },
+  {
+    "id": 174,
+    "response": ""
+  },
+  {
+    "id": 175,
+    "response": ""
+  },
+  {
+    "id": 176,
+    "response": "```python\ndef count_vowels(s):\n  \"\"\"\n  একটি স্ট্রিং-এর প্রতিবেশী স্বরবর্ণ গণনা করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    স্ট্রিং-এর প্রতিবেশী স্বরবর্ণের সংখ্যা।\n  \"\"\"\n  vowels = \"aeiouAEIOU\"\n  count = 0\n  for char in s:\n    if char in vowels:\n      count += 1\n  return count\n\n# উদাহরণ ব্যবহার\nprint(count_vowels(\"hello\"))  # আউটপুট: 2\nprint(count_vowels(\"aeiou\"))  # আউটপুট: 5\nprint(count_vowels(\"programming\")) # আউটপুট: 3\nprint(count_vowels(\"xyz\")) # আউটপুট: 0\n```\n\nএই ফাংশনটি প্রথমে `vowels` নামক একটি স্ট্রিং তৈরি করে, যেখানে সমস্ত ছোট ও বড় হাতের স্বরবর্ণগুলি অন্তর্ভুক্ত করা হয়েছে। তারপর, এটি স্ট্রিং `s` এর প্রতিটি অক্ষরের উপর লুপ চালায়। যদি অক্ষরটি `vowels` স্ট্রিং-এ থাকে, তাহলে `count` ভেরিয়েবল"
+  },
+  {
+    "id": 177,
+    "response": ""
+  },
+  {
+    "id": 178,
+    "response": ""
+  },
+  {
+    "id": 179,
+    "response": ""
+  },
+  {
+    "id": 180,
+    "response": ""
+  },
+  {
+    "id": 181,
+    "response": ""
+  },
+  {
+    "id": 182,
+    "response": ""
+  },
+  {
+    "id": 183,
+    "response": ""
+  },
+  {
+    "id": 184,
+    "response": ""
+  },
+  {
+    "id": 185,
+    "response": "```python\ndef tuple_str_int(s):\n  \"\"\"\n  একটি টুপল স্ট্রিংকে পূর্ণসংখ্যা টুপলে রূপান্তর করে।\n\n  Args:\n    s: একটি টুপল স্ট্রিং।\n\n  Returns:\n    একটি পূর্ণসংখ্যা টুপলে রূপান্তর করা টুপল।\n  \"\"\"\n  try:\n    int(s)\n    return int(s)\n  except ValueError:\n    return None  # অথবা অন্য কোনো এরর হ্যান্ডলিং\n\n# উদাহরণ ব্যবহার\ntuple_str_int(\"123\")\ntuple_str_int(\"3.14\")\ntuple_str_int(\"abc\")\ntuple_str_int(\"123a\")\n```\n\nএই কোডটি প্রথমে `tuple_str_int` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি টুপল স্ট্রিং `s` ইনপুট হিসেবে নেয়।\n\nফাংশনটি `try-except` ব্লক ব্যবহার করে। `try` ব্লকে, `int(s)` ফাংশনটি টুপল স্ট্রিং `s` কে পূর্ণসংখ্যায় রূপান্তর করার চেষ্টা করে। যদি `s` একটি পূর্ণ"
+  },
+  {
+    "id": 186,
+    "response": ""
+  },
+  {
+    "id": 187,
+    "response": "```python\ndef text_match_three(s):\n  \"\"\"\n  একটি স্ট্রিংয়ের সাথে মিলে যায় যার মধ্যে একটি 'a' থাকে যার পরে তিনটি 'b' থাকে।\n\n  Args:\n    s: ইনপুট স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি মিলে যায় তবে True, অন্যথায় False।\n  \"\"\"\n  if s.startswith('a') and s.count('b') == 3:\n    return True\n  else:\n    return False\n\n# উদাহরণ ব্যবহার\nprint(text_match_three(\"ababbb\"))  # True\nprint(text_match_three(\"aabbb\"))   # True\nprint(text_match_three(\"aabb\"))    # False\nprint(text_match_three(\"abc\"))     # False\nprint(text_match_three(\"abbb\"))    # False\nprint(text_match_three(\"a\"))       # False\nprint(text_match_three(\"b\"))       # False\n```\n\nএই কোডটি প্রথমে `startswith()` মেথড ব্যবহার করে স্ট্রিংয়ের শুরুতে 'a' আছে কিনা তা পরীক্ষা করে। যদি থাকে, তাহলে `count()` মেথ"
+  },
+  {
+    "id": 188,
+    "response": ""
+  },
+  {
+    "id": 189,
+    "response": ""
+  },
+  {
+    "id": 190,
+    "response": "```python\ndef even_position(lst):\n  \"\"\"\n  একটি তালিকার প্রতিটি জোড় সংখ্যা কি আছে তা পরীক্ষা করে।\n\n  Args:\n    lst: সংখ্যার একটি তালিকা।\n\n  Returns:\n    একটি তালিকা যাতে শুধুমাত্র জোড় সংখ্যাগুলো আছে।\n  \"\"\"\n  even_numbers = []\n  for i in range(len(lst)):\n    if lst[i] % 2 == 0:\n      even_numbers.append(lst[i])\n  return even_numbers\n\n# Example usage:\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = even_position(numbers)\nprint(result)  # Output: [2, 4, 6, 8, 10]\n```\n\nএই ফাংশনটি প্রথমে একটি খালি তালিকা `even_numbers` তৈরি করে। তারপর, এটি তালিকার প্রতিটি সংখ্যার জন্য লুপ চালায়। যদি কোনো সংখ্যার মান জোড় হয়, তবে এটি `even_numbers` তালিকায় যুক্ত করা হয়। সবশেষে, ফাংশনটি `even_numbers` তালিকাটি ফেরত দেয়।"
+  },
+  {
+    "id": 191,
+    "response": ""
+  },
+  {
+    "id": 192,
+    "response": ""
+  },
+  {
+    "id": 193,
+    "response": ""
+  },
+  {
+    "id": 194,
+    "response": "```python\ndef text_starta_endb(s):\n  \"\"\"\n  একটি স্ট্রিংয়ের সাথে মিলে যায় যার 'a' এর পরে কিছু আছে, যা 'b' দিয়ে শেষ হয়।\n\n  Args:\n    s: ইনপুট স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি মিলে যায়, তাহলে স্ট্রিংটি ফেরত দিন। অন্যথায়, None ফেরত দিন।\n  \"\"\"\n  if s.endswith('a'):\n    return s[9:]  # 'a' এর পরে থাকা অংশটি ফেরত দিন\n  else:\n    return None\n\n# উদাহরণ ব্যবহার\nprint(text_starta_endb(\"a12b\"))  # আউটপুট: \"a12b\"\nprint(text_starta_endb(\"a12\"))   # আউটপুট: None\nprint(text_starta_endb(\"a12b3\")) # আউটপুট: None\nprint(text_starta_endb(\"a12b34\")) # আউটপুট: None\n```\n\nএই কোডটি প্রথমে `endswith()` ফাংশন ব্যবহার করে স্ট্রিং `s` এর শেষ অংশটি 'a"
+  },
+  {
+    "id": 195,
+    "response": ""
+  },
+  {
+    "id": 196,
+    "response": "```python\ndef return_sum(dct):\n  \"\"\"\n  একটি ডিকশনারি থেকে সমস্ত আইটেমের যোগফল নির্ণয় করে।\n\n  Args:\n    dct: একটি ডিকশনারি।\n\n  Returns:\n    ডিকশনারির সমস্ত আইটেমের যোগফল।\n  \"\"\"\n  total = 0\n  for key in dct:\n    total += dct[key]\n  return total\n\n# উদাহরণ ব্যবহার\nmy_dict = {'a': 10, 'b': 20, 'c': 30}\nresult = return_sum(my_dict)\nprint(result)  # আউটপুট: 60\n```\n\nএই কোডটি প্রথমে `return_sum` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি ডিকশনারি `dct` আর্গুমেন্ট হিসেবে গ্রহণ করে।\n\nফাংশনটি `total` নামক একটি ভেরিয়েবল শুরু করে, যার মান 0 দিয়ে ইনিশিয়ালাইজ করা হয়। এরপর, এটি ডিকশনারি `dct` এর প্রতিটি কী (key) এর উপর লুপ চালায়। প্রতিটি কী-এর জন্য, ফাংশনটি ডিকশনারি"
+  },
+  {
+    "id": 197,
+    "response": "```python\ndef sum_in_range(n, n2):\n  \"\"\"\n  l এবং r এর মধ্যে থাকা সমস্ত বিজোড় প্রাকৃতিক সংখ্যার যোগফল নির্ণয় করে।\n\n  Args:\n    n: একটি পূর্ণসংখ্যা।\n    n2: একটি পূর্ণসংখ্যা।\n\n  Returns:\n    l এবং r এর মধ্যে থাকা বিজোড় প্রাকৃতিক সংখ্যার যোগফল।\n  \"\"\"\n\n  sum = 0\n  for i in range(n, n2 + 1, 2):\n    sum += i\n  return sum\n\n# উদাহরণ ব্যবহার\nprint(sum_in_range(10, 20))  # আউটপুট: 30\nprint(sum_in_range(10, 21))  # আউটপুট: 30\nprint(sum_in_range(1, 10))   # আউটপুট: 5\nprint(sum_in_range(1, 1))    # আউটপুট: 1\n```\n\nএই ফাংশনটি `sum_in_range` নামে পরিচিত। এটি `n` এবং `n2` নামক দুটি আর্গুমেন্ট গ্রহণ করে। ফাংশনটি"
+  },
+  {
+    "id": 198,
+    "response": ""
+  },
+  {
+    "id": 199,
+    "response": "```python\ndef left_rotate(n, n2):\n  \"\"\"\n  একটি সংখ্যার বিটগুলিকে বাম দিকে ঘোরায় করে।\n\n  Args:\n    n: যে সংখ্যাটিকে ঘোরানো হবে।\n    n2: যে সংখ্যাটিকে ঘোরানো হবে।\n\n  Returns:\n    ঘোরানো সংখ্যার নতুন মান।\n  \"\"\"\n  return n2 << 1\n\n# উদাহরণ ব্যবহার\nnumber = 10\nrotated_number = left_rotate(number, number)\nprint(f\"Original number: {number}\")\nprint(f\"Rotated number: {rotated_number}\")\n```\n\nএই ফাংশনটি `left_rotate` নামে পরিচিত। এটি একটি সংখ্যার বিটগুলিকে বাম দিকে ঘোরায় করে। এটি `<<` অপারেটর ব্যবহার করে `n2` এর বিটগুলিকে `n` এর বিটগুলোর সাথে তুলনা করে এবং `n2` এর বিটগুলিকে `n` এর বিটগুলোর সাথে তুলনা করে।  তারপর, `n2` এর বিটগুলিকে `n` এর বিটগুলোর সাথে তুলনা করে এবং `n` এর বিটগুলিকে `n2` এর বিটগুলোর সাথে তুলনা করে।  এইভাবে, `n` এর বিট"
+  },
+  {
+    "id": 200,
+    "response": ""
+  },
+  {
+    "id": 201,
+    "response": "```python\ndef test_three_equal(n, n2, n3):\n  \"\"\"\n  তিনটি পূর্ণসংখ্যা থেকে সমান সংখ্যার সংখ্যা গণনা করে।\n\n  Args:\n    n: প্রথম পূর্ণসংখ্যা।\n    n2: দ্বিতীয় পূর্ণসংখ্যা।\n    n3: তৃতীয় পূর্ণসংখ্যা।\n\n  Returns:\n    তিনটি সংখ্যার মধ্যে সমান সংখ্যাগুলোর সংখ্যা।\n  \"\"\"\n  count = 0\n  for i in range(1, min(n, n2, n3)):\n    if n == n2 == n3:\n      count += 1\n  return count\n\n# উদাহরণ ব্যবহার:\nprint(test_three_equal(5, 5, 5))  # আউটপুট: 3\nprint(test_three_equal(10, 10, 10)) # আউটপুট: 1\nprint(test_three_equal(1, 2, 3))  # আউটপুট: 0\n```\n\nএই ফাংশনটি `test_three_equal` নামে পরিচিত। এটি তিনটি আর্গুমেন্ট গ্রহণ করে: `n`, `n2`, এবং `n3`, যা তিনটি পূর্ণসংখ্যা।"
+  },
+  {
+    "id": 202,
+    "response": ""
+  },
+  {
+    "id": 203,
+    "response": ""
+  },
+  {
+    "id": 204,
+    "response": ""
+  },
+  {
+    "id": 205,
+    "response": ""
+  },
+  {
+    "id": 206,
+    "response": ""
+  },
+  {
+    "id": 207,
+    "response": ""
+  },
+  {
+    "id": 208,
+    "response": ""
+  },
+  {
+    "id": 209,
+    "response": ""
+  },
+  {
+    "id": 210,
+    "response": ""
+  },
+  {
+    "id": 211,
+    "response": ""
+  },
+  {
+    "id": 212,
+    "response": "```python\ndef road_rd(s):\n  \"\"\"\n  একটি স্ট্রিংয়ে 'road' শব্দটিকে 'rd' হিসেবে সংক্ষিপ্ত করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    'rd' হিসেবে সংক্ষিপ্ত করা স্ট্রিং।\n  \"\"\"\n  return s.replace(\"road\", \"rd\")\n\n# উদাহরণ ব্যবহার\nprint(road_rd(\"road\"))  # আউটপুট: rd\nprint(road_rd(\"road2\")) # আউটপুট: rd2\nprint(road_rd(\"road3\")) # আউটপুট: rd3\n```\n\nএই ফাংশনটি `replace()` মেথড ব্যবহার করে স্ট্রিংয়ের মধ্যে \"road\" শব্দটিকে \"rd\" দিয়ে প্রতিস্থাপন করে।  `replace()` মেথডটি একটি স্ট্রিংয়ের একটি নির্দিষ্ট অংশকে অন্য একটি স্ট্রিং দিয়ে প্রতিস্থাপন করে।  এখানে, \"road\" শব্দটি \"rd\" দিয়ে প্রতিস্থাপিত হবে।"
+  },
+  {
+    "id": 213,
+    "response": ""
+  },
+  {
+    "id": 214,
+    "response": ""
+  },
+  {
+    "id": 215,
+    "response": ""
+  },
+  {
+    "id": 216,
+    "response": "```python\ndef clear_tuple(tup):\n  \"\"\"\n  একটি টুপল থেকে নির্দিষ্ট মানগুলি সরিয়ে দেয়।\n\n  Args:\n    tup: যে টুপল থেকে মানগুলি সরিয়ে ফেলা হবে।\n\n  Returns:\n    একটি নতুন টুপল যাতে মূল টুপল থেকে সরিয়ে ফেলা মানগুলি নেই।\n  \"\"\"\n  new_tuple = tuple(x for x in tup if x not in tup)\n  return new_tuple\n\n# উদাহরণ ব্যবহার:\ntup1 = (1, 2, 3, 2, 4)\nprint(clear_tuple(tup1))  # আউটপুট: (1, 3, 2, 4)\n\ntup2 = (1, 1, 1, 1)\nprint(clear_tuple(tup2))  # আউটপুট: ()\n\ntup3 = (1, 2, 3, 4, 5)\nprint(clear_tuple(tup3))  # আউটপুট: (1, 2, 3, 4, 5)\n```\n\nএই কোডটি প্রথমে `clear_tuple` নামে"
+  },
+  {
+    "id": 217,
+    "response": "```python\ndef div_of_nums(lst, n, n2):\n    \"\"\"\n    ল্যাম্বদা ফাংশন ব্যবহার করে সংখ্যার তালিকা থেকে m বা n দ্বারা বিভাজ্য সংখ্যা খুঁজে বের করে।\n\n    Args:\n        lst: সংখ্যার তালিকা।\n        n: বিভাজ্য সংখ্যা দ্বারা বিভাজ্য সংখ্যাটির জন্য।\n        n2: বিভাজ্য সংখ্যাটি।\n\n    Returns:\n        একটি তালিকা যেখানে m দ্বারা বিভাজ্য সংখ্যাগুলি রয়েছে।\n    \"\"\"\n    result = []\n    for num in lst:\n        if num % n == 0 and num % n2 == 0:\n            result.append(num)\n    return result\n\n# উদাহরণ ব্যবহার\nlst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = 2\nn2 = 3\nresult = div_of_nums(lst, n, n2)\nprint(result)  # আউটপুট: [6, 12]\n```\n\nএই কোডটি প্রথমে `div_of_nums` নামে একটি ফাংশন সংজ্ঞায়িত"
+  },
+  {
+    "id": 218,
+    "response": ""
+  },
+  {
+    "id": 219,
+    "response": ""
+  },
+  {
+    "id": 220,
+    "response": "```python\ndef check_monthnum_number(n):\n  \"\"\"\n  একটি সংখ্যা পরীক্ষা করে দেখে যে সংখ্যাটি ২৮ দিনের সংখ্যা কিনা।\n\n  Args:\n    n: একটি পূর্ণসংখ্যা।\n\n  Returns:\n    যদি সংখ্যাটি ২৮ দিনের সংখ্যা হয় তবে True, অন্যথায় False।\n  \"\"\"\n  if n % 30 == 0:\n    return True\n  else:\n    return False\n\n# উদাহরণ ব্যবহার\nprint(check_monthnum_number(1))  # True\nprint(check_monthnum_number(28)) # True\nprint(check_monthnum_number(29)) # True\nprint(check_monthnum_number(27)) # False\nprint(check_monthnum_number(26)) # False\n```\n\nএই কোডটি প্রথমে `check_monthnum_number` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি আর্গুমেন্ট `n` গ্রহণ করে, যা একটি পূর্ণসংখ্যা।\n\nফাংশনটি প্রথমে পরীক্ষা করে দেখে যে `n` সংখ্যাটি ৩০ দ্বারা বিভাজ্য কিনা। যদি এটি বিভাজ্য হয়, তাহলে ফাংশনটি `True` রিটার্ন"
+  },
+  {
+    "id": 221,
+    "response": "```python\ndef merge_dictionaries(dict1, dict2):\n  \"\"\"\n  দুটি ডিকশনারিকে একত্রিত করে।\n\n  Args:\n    dict1: প্রথম ডিকশনারি।\n    dict2: দ্বিতীয় ডিকশনারি।\n\n  Returns:\n    একটি নতুন ডিকশনারি যাতে উভয় ডিকশনারির কী এবং ভ্যালুগুলি একত্রিত করা হয়েছে।\n  \"\"\"\n  merged_dict = dict1.copy()  # dict1 এর একটি কপি তৈরি করুন\n  merged_dict.update(dict2)  # dict2 এর প্রতিটি কী-এর জন্য dict1-এ যোগ করুন\n  return merged_dict\n\n# উদাহরণ ব্যবহার:\ndict1 = {'a': 1, 'b': 2, 'c': 3}\ndict2 = {'b': 4, 'c': 5, 'd': 6}\n\nmerged_dict = merge_dictionaries(dict1, dict2)\nprint(merged_dict)  # আউটপুট: {'a': 1, 'b': 4, 'c': 7, 'd': 6}\n```\n\nএই কোডটি নিম্নলিখিতভাবে কাজ করে:\n\n1"
+  },
+  {
+    "id": 222,
+    "response": "```python\ndef pass_validity(s):\n  \"\"\"\n  একটি স্ট্রিং বৈধ কিনা তা পরীক্ষা করে।\n\n  Args:\n    s: যে স্ট্রিংটি পরীক্ষা করতে হবে।\n\n  Returns:\n    যদি স্ট্রিংটি বৈধ হয় তবে True, অন্যথায় False।\n  \"\"\"\n  if s == \"valid\":\n    return True\n  else:\n    return False\n\n# উদাহরণ ব্যবহার\nprint(pass_validity(\"valid\"))\nprint(pass_validity(\"invalid\"))\n```\n\nএই ফাংশনটি `pass_validity` একটি স্ট্রিং `s` গ্রহণ করে এবং যদি স্ট্রিংটি \"valid\" এর সমান হয় তবে `True` রিটার্ন করে, অন্যথায় `False` রিটার্ন করে।\n\nএখানে উদাহরণ ব্যবহার দেখানো হলো:\n\n```\npass_validity(\"valid\")  # আউটপুট: True\npass_validity(\"invalid\") # আউটপুট: False\n```"
+  },
+  {
+    "id": 223,
+    "response": "```python\nimport re\n\ndef check_substring(s, s2):\n  \"\"\"\n  একটি ফাংশন যা একটি স্ট্রিং একটি নির্দিষ্ট সাবস্ট্রিং দিয়ে শুরু হয় কিনা তা পরীক্ষা করে।\n\n  Args:\n    s: যে স্ট্রিংটি পরীক্ষা করা হবে।\n    s2: যে সাবস্ট্রিং দিয়ে শুরু হতে হবে।\n\n  Returns:\n    যদি s একটি s2 সাবস্ট্রিং দিয়ে শুরু হয় তবে True, অন্যথায় False।\n  \"\"\"\n  pattern = re.compile(re.escape(s2))\n  match = pattern.search(s)\n  return bool(match)\n\n# উদাহরণ ব্যবহার\ns = \"This is a test string\"\ns2 = \"test\"\nresult = check_substring(s, s2)\nprint(result)  # আউটপুট: True\n\ns = \"This is a test string\"\ns2 = \"not_found\"\nresult = check_substring(s, s2)\nprint(result)  # আউটপুট: False\n```\n\nএই কোডটি প্রথমে `re` মডিউল ইম্পোর্ট করে। তারপর, `check_substring` ফাংশনটি দুটি আ"
+  },
+  {
+    "id": 224,
+    "response": ""
+  },
+  {
+    "id": 225,
+    "response": ""
+  },
+  {
+    "id": 226,
+    "response": ""
+  },
+  {
+    "id": 227,
+    "response": ""
+  },
+  {
+    "id": 228,
+    "response": "```python\ndef count_alpha_dig_spl(s):\n  \"\"\"\n  একটি স্ট্রিং-এ বর্ণমালা, সংখ্যা এবং বিশেষ অক্ষর গণনা করে।\n\n  Args:\n    s: ইনপুট স্ট্রিং।\n\n  Returns:\n    স্ট্রিং-এ বর্ণমালা, সংখ্যা এবং বিশেষ অক্ষরগুলির সংখ্যা।\n  \"\"\"\n  count = 0\n  for char in s:\n    if char.isalpha():\n      count += 1\n    elif char.isdigit():\n      count += 1\n    else:\n      count += 1\n  return count\n\n# উদাহরণ ব্যবহার\nstring = \"Hello123World!@#$\"\nresult = count_alpha_dig_spl(string)\nprint(f\"স্ট্রিং '{string}'-এ বর্ণমালা, সংখ্যা এবং বিশেষ অক্ষরগুলির সংখ্যা: {result}\")  # আউটপুট: 11\n```\n\nএই ফাংশনটি `count_alpha_dig_spl` নামে সংজ্ঞায়িত করা হয়েছে, যা একটি স্ট্রিং ইনপুট হিসেবে নেয় এবং এর মধ্যে বর্ণমালা, সংখ্যা এবং বিশেষ অক্ষরগুলির সংখ্যা গণনা করে।\n\nফাংশনটি নিম্নলিখিতভাবে কাজ করে:\n\n1."
+  },
+  {
+    "id": 229,
+    "response": ""
+  },
+  {
+    "id": 230,
+    "response": ""
+  },
+  {
+    "id": 231,
+    "response": ""
+  },
+  {
+    "id": 232,
+    "response": ""
+  },
+  {
+    "id": 233,
+    "response": ""
+  },
+  {
+    "id": 234,
+    "response": ""
+  },
+  {
+    "id": 235,
+    "response": ""
+  },
+  {
+    "id": 236,
+    "response": "```python\ndef max_sub_array_sum(lst, n):\n    \"\"\"\n    একটি লিস্টের মধ্যে সর্বোচ্চ যোগফলের সাথে সাব-অ্যারের দৈর্ঘ্য খুঁজে বের করে।\n\n    Args:\n        lst: সংখ্যার একটি তালিকা।\n        n: তালিকার দৈর্ঘ্য।\n\n    Returns:\n        সর্বোচ্চ যোগফলের সাথে সাব-অ্যারের দৈর্ঘ্য।\n    \"\"\"\n\n    max_sum = float('-inf')\n    max_len = 0\n\n    for i in range(n):\n        current_sum = 0\n        for j in range(i, n):\n            current_sum += lst[j]\n            if current_sum > max_sum:\n                max_sum = current_sum\n                max_len = j - i + 1\n            elif current_sum == max_sum and j - i + 1 > max_len:\n                max_len = j - i + 1\n\n    return max_sum\n```\n\nএই ফাংশনটি প্রথমে `max_sum` এবং `max_len` নামক দুটি ভেরিয়েবল দিয়ে শুরু করে। `max_sum` ভেরিয়েবলটি সর্বোচ্চ যোগফলের"
+  },
+  {
+    "id": 237,
+    "response": ""
+  },
+  {
+    "id": 238,
+    "response": ""
+  },
+  {
+    "id": 239,
+    "response": "```python\ndef sort_tuple(lst):\n  \"\"\"\n  একটি টুপল লিস্টকে বর্ণানুক্রমিকভাবে সাজানো হয়।\n\n  Args:\n    lst: টুপল লিস্ট।\n\n  Returns:\n    সাজানো টুপল লিস্ট।\n  \"\"\"\n  lst.sort()  # লিস্টকে সাজানোর জন্য বিল্টইন sort() ফাংশন ব্যবহার করা হয়েছে।\n  return lst\n\n# উদাহরণ ব্যবহার\nmy_list = [(1, 'z'), (2, 'a'), (3, 'b')]\nsorted_list = sort_tuple(my_list)\nprint(sorted_list)  # আউটপুট: [(1, 'a'), (2, 'b'), (3, 'z')]\n```\n\nএই কোডটি প্রথমে `sort_tuple` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি টুপল লিস্টকে ইনপুট হিসেবে নেয় এবং `sort()` মেথড ব্যবহার করে টুপলগুলোকে বর্ণানুক্রমিকভাবে সাজিয়ে একটি নতুন সাজানো টুপল লিস্ট রিটার্ন করে।  `sort()` মেথডটি লিস্টের উপাদানগুলোকে তাদের নিজস্ব ক্রম অনুসারে সাজিয়ে দেয়।\n\nউদাহরণস্বরূপ, `my"
+  },
+  {
+    "id": 240,
+    "response": ""
+  },
+  {
+    "id": 241,
+    "response": "```python\ndef get_inv_count(lst, n):\n  \"\"\"\n  একটি অ্যারেতে বিপরীত সংখ্যা গণনা করে।\n\n  Args:\n    lst: সংখ্যাগুলির একটি তালিকা।\n    n: বিপরীত সংখ্যাগুলির সংখ্যা।\n\n  Returns:\n    বিপরীত সংখ্যাগুলির সংখ্যা।\n  \"\"\"\n  count = 0\n  for i in range(len(lst)):\n    for j in range(i + 1, len(lst)):\n      if lst[i] > lst[j]:\n        count += 1\n  return count\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 5]\nn = 2\nresult = get_inv_count(my_list, n)\nprint(f\"বিপরীত সংখ্যাগুলির সংখ্যা: {result}\")  # আউটপুট: বিপরীত সংখ্যাগুলির সংখ্যা: 2\n```\n\nএই কোডটি প্রথমে `get_inv_count` নামে একটি ফাংশন তৈরি করে যা একটি তালিকা এবং একটি সংখ্যা `n` গ্রহণ করে। ফাংশনটি তালিকার প্রতিটি উপাদান এবং তালিকার অন্যান্য উপাদানগুলির মধ্যে বিপরীত সংখ্যাগুলির সংখ্যা গণনা করে। এটি একটি লুপ ব্যবহার করে"
+  },
+  {
+    "id": 242,
+    "response": ""
+  },
+  {
+    "id": 243,
+    "response": ""
+  },
+  {
+    "id": 244,
+    "response": ""
+  },
+  {
+    "id": 245,
+    "response": ""
+  },
+  {
+    "id": 246,
+    "response": ""
+  },
+  {
+    "id": 247,
+    "response": ""
+  },
+  {
+    "id": 248,
+    "response": ""
+  },
+  {
+    "id": 249,
+    "response": ""
+  },
+  {
+    "id": 250,
+    "response": ""
+  },
+  {
+    "id": 251,
+    "response": ""
+  },
+  {
+    "id": 252,
+    "response": ""
+  },
+  {
+    "id": 253,
+    "response": ""
+  },
+  {
+    "id": 254,
+    "response": ""
+  },
+  {
+    "id": 255,
+    "response": ""
+  },
+  {
+    "id": 256,
+    "response": ""
+  },
+  {
+    "id": 257,
+    "response": "```python\ndef listify_list(lst):\n  \"\"\"\n  মানচিত্র ফাংশন ব্যবহার করে প্রদত্ত স্ট্রিংগুলির তালিকা পৃথকভাবে তালিকাভুক্ত করে।\n\n  Args:\n    lst: স্ট্রিংগুলির একটি তালিকা।\n\n  Returns:\n    একটি তালিকা, যেখানে প্রতিটি উপাদান একটি স্ট্রিং এবং অন্যটি একটি তালিকা।\n  \"\"\"\n  result = []\n  for item in lst:\n    result.append(item)\n  return result\n\n# উদাহরণ ব্যবহার\nmy_list = [\"a\", \"b\", \"c\", \"d\"]\nprint(listify_list(my_list))\n# আউটপুট: [['a'], ['b'], ['c'], ['d']]\n\nmy_list2 = [\"one\", \"two\", \"three\"]\nprint(listify_list(my_list2))\n# আউটপুট: [['one'], ['two'], ['three']]\n\nmy_list3 = []\nprint(listify_list(my_list3))\n# আউটপুট: []\n```\n\nএই কোডটি প্রথমে `listify_list` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি তালিকা `lst` আ"
+  },
+  {
+    "id": 258,
+    "response": "```python\ndef count_list(lst):\n  \"\"\"\n  একটি তালিকা তালিকা এবং গণনা বর্গক্ষেত্রের তালিকা গণনা করে।\n\n  Args:\n    lst: একটি তালিকা যা একটি তালিকা এবং গণনা বর্গক্ষেত্রের তালিকা হতে পারে।\n\n  Returns:\n    একটি তালিকা যা একটি তালিকা এবং গণনা বর্গক্ষেত্রের তালিকা।\n  \"\"\"\n  list_of_lists = []\n  for item in lst:\n    if isinstance(item, list):\n      list_of_lists.append(item)\n    else:\n      list_of_lists.append(item)\n  return list_of_lists\n\n# উদাহরণ ব্যবহার\nmy_list = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]\nresult = count_list(my_list)\nprint(result)  # আউটপুট: [[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n```\n\nএই কোডটি প্রথমে `count_list` নামে একটি ফাংশন তৈরি করে যা একটি তালিকা ইনপুট হিসেবে নেয়। এরপর, এটি তালিকাটির প্রতিটি উপাদানের জন্য ল"
+  },
+  {
+    "id": 259,
+    "response": "```python\ndef sub_lists(lst):\n  \"\"\"\n  একটি তালিকার সব উপ-তালিকা তৈরি করে।\n\n  Args:\n    lst: একটি তালিকা।\n\n  Returns:\n    একটি তালিকা যাতে মূল তালিকার প্রতিটি উপ-তালিকা রয়েছে।\n  \"\"\"\n  result = []\n  for item in lst:\n    result.append([item])  # প্রতিটি উপাদানকে একটি নতুন তালিকা হিসেবে যুক্ত করা হচ্ছে\n  return result\n\n# উদাহরণ ব্যবহার:\nmy_list = [1, 2, [3, 4], 5]\nsub_lists_result = sub_lists(my_list)\nprint(sub_lists_result)  # আউটপুট: [[1], [2], [3], [4], [5]]\n```\n\nএই কোডটি প্রথমে `sub_lists` নামে একটি ফাংশন তৈরি করে। এই ফাংশনটি একটি তালিকা `lst` গ্রহণ করে।\n\nফাংশনটি `result` নামের একটি খালি তালিকা তৈরি করে। এরপর, এটি মূল তালিকার প্রতিটি উপ-তালিকা তৈরি করার জন্য লুপ ব্যবহার করে। প্রতিটি উপ-তালিকা তৈরি করার সময়, এটি মূল তালিকার প্রতিটি উপ-তালিকাটিকে একটি নতুন তালিকায় যুক্ত"
+  },
+  {
+    "id": 260,
+    "response": ""
+  },
+  {
+    "id": 261,
+    "response": ""
+  },
+  {
+    "id": 262,
+    "response": ""
+  },
+  {
+    "id": 263,
+    "response": ""
+  },
+  {
+    "id": 264,
+    "response": ""
+  },
+  {
+    "id": 265,
+    "response": "```python\ndef times_list(lst, n):\n  \"\"\"\n  মানচিত্র ফাংশন ব্যবহার করে একটি তালিকা n বার প্রিন্ট করে।\n\n  Args:\n    lst: যে তালিকাটি প্রিন্ট করতে হবে।\n    n: কতবার তালিকাটি প্রিন্ট করতে হবে।\n\n  Returns:\n    কোনো কিছু ফেরত দেয় না।\n  \"\"\"\n  for i in range(n):\n    print(lst[i])\n\n# উদাহরণ ব্যবহার\nmy_list = [1, 2, 3, 4, 5]\ntimes_list(my_list, 3)\n```\n\nএই কোডটি প্রথমে `times_list` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি দুটি আর্গুমেন্ট গ্রহণ করে:\n- `lst`: যে তালিকাটি প্রিন্ট করতে হবে।\n- `n`: কতবার তালিকাটি প্রিন্ট করতে হবে।\n\nফাংশনটি তারপর `for` লুপ ব্যবহার করে `n` বার লুপ করে। লুপের প্রতিটি পুনরাবৃত্তিতে, ফাংশনটি `lst` তালিকার `i`-তম উপাদানটি প্রিন্ট করে।\n\nউদাহরণস্বরূপ, যদি `my_list` = `[1"
+  },
+  {
+    "id": 266,
+    "response": ""
+  },
+  {
+    "id": 267,
+    "response": ""
+  },
+  {
+    "id": 268,
+    "response": ""
+  },
+  {
+    "id": 269,
+    "response": ""
+  },
+  {
+    "id": 270,
+    "response": ""
+  },
+  {
+    "id": 271,
+    "response": ""
+  },
+  {
+    "id": 272,
+    "response": ""
+  },
+  {
+    "id": 273,
+    "response": ""
+  },
+  {
+    "id": 274,
+    "response": ""
+  },
+  {
+    "id": 275,
+    "response": ""
+  },
+  {
+    "id": 276,
+    "response": ""
+  },
+  {
+    "id": 277,
+    "response": ""
+  },
+  {
+    "id": 278,
+    "response": ""
+  },
+  {
+    "id": 279,
+    "response": "```python\nimport re\n\ndef text_match(text):\n  \"\"\"\n  একটি স্ট্রিংয়ের সাথে মিলবে যার 'a' এর পরে কিছু আছে, 'b' দিয়ে শেষ হবে রেজেক্স ব্যবহার করে।\n\n  Args:\n    text: যে স্ট্রিংটি পরীক্ষা করা হবে।\n\n  Returns:\n    যদি স্ট্রিংটি মেলে তাহলে True, অন্যথায় False।\n  \"\"\"\n  pattern = r\"a.*b$\"\n  match = re.search(pattern, text)\n  return bool(match)\n\n# উদাহরণ ব্যবহার\ntext1 = \"This is a test string with a123b.\"\ntext2 = \"This is a test string with a123.\"\ntext3 = \"This is a test string with no match.\"\n\nprint(f\"'{text1}' matches: {text_match(text1)}\")\nprint(f\"'{text2}' matches: {text_match(text2)}\")\nprint(f\"'{text3}' matches: {text_match(text3)}\")\n```\n\nএই কোডটি প্রথমে `re` মডিউল ইম্পোর্ট করে, যা রেগুলার এক্সপ্রেশন অপারেশনের জন্য প্রয়োজনীয়।  তারপর"
+  },
+  {
+    "id": 280,
+    "response": ""
+  },
+  {
+    "id": 281,
+    "response": ""
+  },
+  {
+    "id": 282,
+    "response": "```python\ndef parallelogram_perimeter(n, n2):\n  \"\"\"\n  একটি সমান্তরাল পরিধি গণনা করে।\n\n  Args:\n    n: সমান্তরালদ্বয়ের বাহুর দৈর্ঘ্য।\n    n2: অন্য সমান্তরালদ্বয়ের বাহুর দৈর্ঘ্য।\n\n  Returns:\n    সমান্তরাল পরিধির সমষ্টি।\n  \"\"\"\n  perimeter = 2 * (n + n2)\n  return perimeter\n\n# উদাহরণ ব্যবহার:\nparallelogram_perimeter(5, 7)  # আউটপুট: 74\nparallelogram_perimeter(10, 12) # আউটপুট: 122\n```\n\nএই ফাংশনটি `parallelogram_perimeter` নামে তৈরি করা হয়েছে। এটি দুটি আর্গুমেন্ট গ্রহণ করে:\n\n*   `n`: প্রথম সমান্তরালদ্বয়ের বাহুর দৈর্ঘ্য।\n*   `n2`: দ্বিতীয় সমান্তরালদ্বয়ের বাহুর দৈর্ঘ্য।\n\nফাংশনটি `2 * (n + n2)` ব্যবহার করে সমান্তরাল পরিধির সমষ্টি গণনা করে এবং ফলাফল রিটার্ন করে।\n\nউদাহরণস্বরূপ, যদি `parallelogram_perimeter(5, 7)` কল করা হয়, তাহলে ফাংশনটি `"
+  },
+  {
+    "id": 283,
+    "response": "```python\ndef div_of_nums(lst, n, n2):\n    \"\"\"\n    ল্যাম্বদা ফাংশন ব্যবহার করে সংখ্যার তালিকা থেকে m এবং n দ্বারা বিভাজ্য সংখ্যা খুঁজে বের করে।\n\n    Args:\n        lst: সংখ্যার তালিকা।\n        n: বিভাজ্য সংখ্যাগুলির জন্য একটি সীমা।\n        n2: যে সংখ্যাটি বিভাজ্য কিনা তা নির্দেশ করে।\n\n    Returns:\n        একটি তালিকা, যেখানে m এবং n দ্বারা বিভাজ্য সংখ্যাগুলি রয়েছে।\n    \"\"\"\n\n    divisible_numbers = []\n    for num in lst:\n        if num % n == 0 and num % n2 == 0:\n            divisible_numbers.append(num)\n    return divisible_numbers\n\n# উদাহরণ ব্যবহার\nlst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = 2\nn2 = 3\nresult = div_of_nums(lst, n, n2)\nprint(result)  # আউটপুট: [6, 10]\n```\n\nএই কোডটি প্রথমে `div_"
+  },
+  {
+    "id": 284,
+    "response": ""
+  },
+  {
+    "id": 285,
+    "response": ""
+  },
+  {
+    "id": 286,
+    "response": "```python\ndef sum_num(tup):\n  \"\"\"\n  একটি তালিকার সব সংখ্যা যোগ করে এবং তালিকার দৈর্ঘ্যের সাথে ভাগ করে।\n\n  Args:\n    tup: সংখ্যার একটি তালিকা।\n\n  Returns:\n    তালিকার সংখ্যাগুলোর যোগফল এবং তালিকার দৈর্ঘ্য।\n  \"\"\"\n  total = 0\n  for num in tup:\n    total += num\n  return total, len(tup)\n\n# উদাহরণ ব্যবহার\nnumbers = [1, 2, 3, 4, 5]\nsum_result, length_result = sum_num(numbers)\nprint(\"Sum:\", sum_result)\nprint(\"Length:\", length_result)\n```\n\nএই কোডটি প্রথমে `sum_num` নামে একটি ফাংশন তৈরি করে যা একটি তালিকা `tup` গ্রহণ করে। ফাংশনটি `total` নামক একটি ভেরিয়েবল শুরু করে, যার মান 0 দিয়ে ইনিশিয়ালাইজ করা হয়। এরপর, এটি তালিকার প্রতিটি সংখ্যা `num` এর উপর লুপ চালায় এবং `total` ভেরিয়েবলে সংখ্যাটি যোগ করে। অবশেষে, ফাংশনটি `total` এবং `len(tup)` এর মান ফেরত দেয়"
+  },
+  {
+    "id": 287,
+    "response": ""
+  },
+  {
+    "id": 288,
+    "response": ""
+  },
+  {
+    "id": 289,
+    "response": "```python\ndef reverse_list_lists(lst):\n  \"\"\"\n  একটি তালিকাকে বিপরীত করে।\n\n  Args:\n    lst: একটি তালিকা।\n\n  Returns:\n    একটি নতুন তালিকা যাতে মূল তালিকাটির উপাদানগুলো বিপরীত ক্রমে সাজানো হয়েছে।\n  \"\"\"\n  return lst[::-1]\n\n# উদাহরণ ব্যবহার\nmy_list = [1, 2, 3, 4, 5]\nreversed_list = reverse_list_lists(my_list)\nprint(reversed_list)  # আউটপুট: [5, 4, 3, 2, 1]\n```\n\nএই কোডটি `reverse_list_lists` নামে একটি ফাংশন সংজ্ঞায়িত করে যা একটি তালিকা ইনপুট হিসেবে নেয় এবং তালিকাটিকে বিপরীত ক্রমে সাজিয়ে একটি নতুন তালিকা ফেরত দেয়।\n\nফাংশনটি `[::-1]` স্লাইসিং ব্যবহার করে তালিকাটিকে বিপরীত করে। এই স্লাইসিংটি একটি নতুন তালিকা তৈরি করে এবং মূল তালিকাটিকে পরিবর্তন করে না।\n\nউদাহরণস্বরূপ, `my_list = [1, 2, 3, 4, 5]` এর জন্য, `reverse_list_lists(my_list)` ফাংশনটি"
+  },
+  {
+    "id": 290,
+    "response": ""
+  },
+  {
+    "id": 291,
+    "response": "```python\ndef same_length(n, n2):\n  \"\"\"\n  দুটি সংখ্যার একই সংখ্যক অঙ্ক থাকে কিনা তা পরীক্ষা করে।\n\n  Args:\n    n: প্রথম সংখ্যা।\n    n2: দ্বিতীয় সংখ্যা।\n\n  Returns:\n    যদি দুটি সংখ্যা একই সংখ্যক অঙ্ক থাকে, তাহলে True, অন্যথায় False।\n  \"\"\"\n  return len(str(n)) == len(str(n2))\n\n# Example usage:\nprint(same_length(123, 321))  # Output: True\nprint(same_length(123, 123))  # Output: True\nprint(same_length(123, 124))  # Output: False\nprint(same_length(123, 125))  # Output: False\n```\n\nএই ফাংশনটি `same_length` নামে পরিচিত। এটি দুটি আর্গুমেন্ট গ্রহণ করে: `n` এবং `n2`, যা দুটি সংখ্যার প্রতিনিধিত্ব করে। ফাংশনটি প্রথমে `str()` ব্যবহার করে উভয় সংখ্যাকে স্ট্রিং-এ রূপান্তরিত করে। তারপর, এটি স্ট্রিং-এর দৈর্ঘ্য ব্যবহার করে দুটি স্ট্রিং"
+  },
+  {
+    "id": 292,
+    "response": ""
+  },
+  {
+    "id": 293,
+    "response": "```python\ndef extract(lst):\n  \"\"\"\n  একটি লিস্ট থেকে প্রতিটি উপ-তালিকার শেষ উপাদানটি বের করে।\n\n  Args:\n    lst: একটি লিস্ট।\n\n  Returns:\n    লিস্টের প্রতিটি উপ-তালিকার শেষ উপাদান।\n  \"\"\"\n  return lst[-1]\n\n# উদাহরণ ব্যবহার:\nmy_list = [1, 2, 3, 4, 5]\nresult = extract(my_list)\nprint(result)  # আউটপুট: 5\n\nmy_list = [\"a\", \"b\", \"c\"]\nresult = extract(my_list)\nprint(result)  # আউটপুট: c\n\nmy_list = []\nresult = extract(my_list)\nprint(result)  # আউটপুট: []\n```\n\nএই ফাংশনটি `lst` নামের একটি লিস্টকে ইনপুট হিসেবে নেয় এবং `lst[-1]` ব্যবহার করে লিস্টের শেষ উপাদানটি বের করে।  `lst[-1]` হলো পাইথনের একটি বিশেষ সিনট্যাক্স যা লিস্টের শেষ উপাদানটিকে নির্দেশ করে।  যদি লিস্টটি খালি হয়, তাহলে ফাংশনটি `[]` রিটার্ন করবে।"
+  },
+  {
+    "id": 294,
+    "response": "```python\ndef float_to_tuple(s):\n  \"\"\"\n  float টাইপের একটি স্ট্রিংকে tuple তে রূপান্তর করে।\n\n  Args:\n    s: float টাইপের স্ট্রিং।\n\n  Returns:\n    একটি tuple যাতে float টাইপের সংখ্যা আছে।\n  \"\"\"\n  try:\n    return tuple(float(s))\n  except ValueError:\n    return None  # অথবা অন্য কোনো এরর হ্যান্ডলিং\n\n# উদাহরণ ব্যবহার\nprint(float_to_tuple(\"3.14\"))\nprint(float_to_tuple(\"10\"))\nprint(float_to_tuple(\"abc\"))\n```\n\nএই কোডটি প্রথমে `float_to_tuple` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি একটি স্ট্রিং `s` গ্রহণ করে এবং এটিকে float এ রূপান্তর করার চেষ্টা করে। যদি স্ট্রিংটি float হিসেবে রূপান্তর করা সম্ভব হয়, তাহলে ফাংশনটি সেই float-কে একটি tuple-এ রূপান্তরিত করে এবং tuple ফেরত দেয়। যদি স্ট্রিংটি float হিসেবে রূপান্তর করা না যায় (যেমন, যদি স্ট্রিংটি অন্য কোনো টাইপের হয়), তাহলে ফাংশনটি `ValueError` উত্থাপন করবে"
+  },
+  {
+    "id": 295,
+    "response": ""
+  },
+  {
+    "id": 296,
+    "response": ""
+  },
+  {
+    "id": 297,
+    "response": ""
+  },
+  {
+    "id": 298,
+    "response": ""
+  },
+  {
+    "id": 299,
+    "response": ""
+  },
+  {
+    "id": 300,
+    "response": "```python\ndef match_num(s):\n  \"\"\"\n  একটি স্ট্রিং একটি নির্দিষ্ট সংখ্যার সাথে শুরু হবে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি একটি নির্দিষ্ট সংখ্যার সাথে শুরু হয়, তাহলে স্ট্রিংটি সেই সংখ্যা দিয়ে শুরু হবে।\n    যদি স্ট্রিংটি নির্দিষ্ট সংখ্যার সাথে শুরু না হয়, তাহলে স্ট্রিংটি অপরিবর্তিত থাকবে।\n  \"\"\"\n  try:\n    return s[:s.find(str(int(s)))]\n  except:\n    return s\n\n# উদাহরণ ব্যবহার\nprint(match_num(\"abc123def\"))  # আউটপুট: 123\nprint(match_num(\"hello\"))  # আউটপুট: hello\nprint(match_num(\"123abc\")) # আউটপুট: 123\nprint(match_num(\"abc\")) # আউটপুট: abc\nprint(match_num(\"\")) # আউটপুট: \"\"\n```\n\nএই ফাংশনটি `match_num` একটি স্ট্রিং গ্রহণ করে এবং স্ট্রিংয়ের শুরু থেকে একটি নির্দিষ্ট সংখ্যা (যা একটি ইন্টিজার) খুঁজে"
+  },
+  {
+    "id": 301,
+    "response": ""
+  },
+  {
+    "id": 302,
+    "response": "```python\ndef find(n, n2):\n  \"\"\"\n  দুটি সংখ্যার অবশিষ্ট খুঁজে বের করার জন্য একটি ফাংশন।\n\n  Args:\n    n: প্রথম সংখ্যা।\n    n2: দ্বিতীয় সংখ্যা।\n\n  Returns:\n    দুটি সংখ্যার অবশিষ্ট।\n  \"\"\"\n  if n > n2:\n    return n - n2\n  else:\n    return n - n2\n\n# উদাহরণ ব্যবহার\nprint(find(10, 5))  # আউটপুট: 5\nprint(find(5, 10))  # আউটপুট: 5\nprint(find(10, 10)) # আউটপুট: 0\n```\n\nএই ফাংশনটি `find` নামে পরিচিত। এটি দুটি সংখ্যা `n` এবং `n2` আর্গুমেন্ট হিসাবে গ্রহণ করে। ফাংশনটি প্রথমে পরীক্ষা করে যে `n` এর মান `n2` থেকে ছোট কিনা। যদি এটি ছোট হয়, তাহলে ফাংশনটি `n - n2` ফেরত দেয়, যা `n` এবং `n2` এর মধ্যে অবশিষ্ট। অন্যথায়, ফাংশনটি `n - n2` ফেরত দেয়, যা `n"
+  },
+  {
+    "id": 303,
+    "response": "```python\ndef add_consecutive_nums(lst):\n  \"\"\"\n  একটি তালিকার পরপর সংখ্যা যোগ করে।\n\n  Args:\n    lst: সংখ্যার একটি তালিকা।\n\n  Returns:\n    তালিকার পরপর সংখ্যাগুলোর যোগফল।\n  \"\"\"\n  total = 0\n  for num in lst:\n    total += num\n  return total\n\n# উদাহরণ ব্যবহার\nnumbers = [1, 2, 3, 4, 5]\nresult = add_consecutive_nums(numbers)\nprint(result)  # আউটপুট: 15\n```\n\nএই ফাংশনটি `add_consecutive_nums` নামে তৈরি করা হয়েছে, যা একটি তালিকা ইনপুট হিসেবে নেয় এবং তালিকার পরপর সংখ্যাগুলোর যোগফল প্রদান করে।\n\nফাংশনটি প্রথমে `total` নামক একটি ভেরিয়েবল 0 দিয়ে শুরু করে। তারপর, এটি তালিকার প্রতিটি সংখ্যা `num` এর উপর দিয়ে যায় এবং `total` ভেরিয়েবলে সেই সংখ্যাটি যোগ করে। সবশেষে, ফাংশনটি `total` ভেরিয়েবলের মান ফেরত দেয়, যা তালিকার পরপর যোগফল।\n\nউদাহরণস্বরূপ, যদি `numbers = [1, 2, 3"
+  },
+  {
+    "id": 304,
+    "response": ""
+  },
+  {
+    "id": 305,
+    "response": ""
+  },
+  {
+    "id": 306,
+    "response": ""
+  },
+  {
+    "id": 307,
+    "response": "```python\ndef remove_words(lst, lst2):\n  \"\"\"\n  একটি তালিকা থেকে নির্দিষ্ট শব্দ অপসারণ করে।\n\n  Args:\n    lst: যে তালিকা থেকে শব্দগুলি সরানো হবে।\n    lst2: যে শব্দগুলি সরানো হবে।\n\n  Returns:\n    একটি নতুন তালিকা যেখানে নির্দিষ্ট শব্দগুলি সরানো হয়েছে।\n  \"\"\"\n  new_lst = [word for word in lst if word not in lst2]\n  return new_lst\n\n# উদাহরণ ব্যবহার:\nmy_list = [\"apple\", \"banana\", \"apple\", \"orange\", \"apple\"]\nmy_list2 = [\"banana\", \"grape\"]\nresult = remove_words(my_list, my_list2)\nprint(result)  # আউটপুট: ['apple', 'orange']\n```\n\nএই ফাংশনটি `remove_words` একটি তালিকা এবং একটি শব্দ তালিকা গ্রহণ করে। এটি `lst` তালিকা থেকে `lst2` এর সমস্ত শব্দ বাদ দিয়ে একটি নতুন তালিকা তৈরি করে।  `for` লুপ ব্যবহার করে, এটি `lst` তালিকার প্রতিটি শব্দ পরীক্ষা করে দেখে যে এটি `lst2` এ আছে কিনা। যদি শব্দটি `lst2` এ না থাকে, তবে এটি `new_"
+  },
+  {
+    "id": 308,
+    "response": "```python\ndef same_order(list1, list2):\n  \"\"\"\n  দুটি তালিকা থেকে সাধারণ উপাদানগুলো একই ক্রমে আছে কিনা তা পরীক্ষা করে।\n\n  Args:\n    list1: প্রথম তালিকা।\n    list2: দ্বিতীয় তালিকা।\n\n  Returns:\n    যদি দুটি তালিকা একই ক্রমে থাকে তবে True, অন্যথায় False।\n  \"\"\"\n  if len(list1) != len(list2):\n    return False\n\n  for i in range(len(list1)):\n    if list1[i] != list2[i]:\n      return False\n\n  return True\n\n# উদাহরণ ব্যবহার\nlist1 = [1, 2, 3, 4, 5]\nlist2 = [5, 4, 3, 2, 1]\nprint(same_order(list1, list2))  # আউটপুট: True\n\nlist1 = [1, 2, 3, 4, 5]\nlist2 = [1, 2, 3, 4, 6]\nprint(same_order(list1, list2))  # আউটপুট: False\n```\n\nএই ফাংশনটি"
+  },
+  {
+    "id": 309,
+    "response": ""
+  },
+  {
+    "id": 310,
+    "response": ""
+  },
+  {
+    "id": 311,
+    "response": ""
+  },
+  {
+    "id": 312,
+    "response": ""
+  },
+  {
+    "id": 313,
+    "response": ""
+  },
+  {
+    "id": 314,
+    "response": ""
+  },
+  {
+    "id": 315,
+    "response": ""
+  },
+  {
+    "id": 316,
+    "response": ""
+  },
+  {
+    "id": 317,
+    "response": ""
+  },
+  {
+    "id": 318,
+    "response": "```python\nimport math\n\ndef sqrt_root(n):\n  \"\"\"\n  একটি পূর্ণসংখ্যার বর্গমূল নির্ণয় করে।\n\n  Args:\n    n: একটি পূর্ণসংখ্যা।\n\n  Returns:\n    n এর বর্গমূল।\n  \"\"\"\n  if n < 0:\n    return \"ঋণাত্মক সংখ্যার বর্গমূল সংজ্ঞায়িত নয়।\"\n  else:\n    return math.sqrt(n)\n\n# উদাহরণ ব্যবহার\nprint(sqrt_root(9))  # আউটপুট: 3.0\nprint(sqrt_root(25)) # আউটপুট: 5.0\nprint(sqrt_root(-4)) # আউটপুট: ঋণাত্মক সংখ্যার বর্গমূল সংজ্ঞায়িত নয়।\n```\n\nএই কোডটি প্রথমে `math` মডিউলটি ইম্পোর্ট করে, যা বর্গমূল নির্ণয়ের জন্য প্রয়োজনীয় ফাংশন সরবরাহ করে।\n\n`sqrt_root(n)` ফাংশনটি একটি পূর্ণসংখ্যা `n` ইনপুট হিসেবে নেয়।\n\nযদি `n` ঋণাত্মক হয়, তাহলে ফাংশনটি একটি বার্তা ফেরত দেয় যে ঋণাত্মক সংখ্যার বর্গমূল সংজ্ঞায়িত নয়। অন্যথায়, এটি `math.sqrt"
+  },
+  {
+    "id": 319,
+    "response": ""
+  },
+  {
+    "id": 320,
+    "response": ""
+  },
+  {
+    "id": 321,
+    "response": ""
+  },
+  {
+    "id": 322,
+    "response": ""
+  },
+  {
+    "id": 323,
+    "response": "```python\ndef check_string(s):\n  \"\"\"\n  একটি স্ট্রিংয়ে একটি বড় অক্ষর, একটি ছোট অক্ষর, একটি সংখ্যা এবং নির্দিষ্ট দৈর্ঘ্য রয়েছে কিনা তা পরীক্ষা করে।\n\n  Args:\n    s: পরীক্ষা করার জন্য স্ট্রিং।\n\n  Returns:\n    যদি স্ট্রিংটি উপরের শর্ত পূরণ করে তবে True, অন্যথায় False।\n  \"\"\"\n  if len(s) >= 6:\n    return True\n  else:\n    return False\n\n# উদাহরণ ব্যবহার\nprint(check_string(\"abcdefg\"))  # True\nprint(check_string(\"abc\"))  # False\nprint(check_string(\"abcdef\")) # False\nprint(check_string(\"abcdefgh\")) # False\n```\n\nএই ফাংশনটি `check_string` নামে সংজ্ঞায়িত করা হয়েছে, যা একটি স্ট্রিং `s` ইনপুট হিসেবে নেয়।  ফাংশনটি স্ট্রিংয়ের দৈর্ঘ্য পরীক্ষা করে। যদি স্ট্রিংয়ের দৈর্ঘ্য 6 বা তার বেশি হয়, তাহলে ফাংশনটি `True` রিটার্ন করে। অন্যথায়, ফাংশনটি `False` রিটার্ন করে।\n\nএখানে ফাংশনটির একটি উদাহরণ দেওয়া হল:\n\n```python"
+  },
+  {
+    "id": 324,
+    "response": ""
+  },
+  {
+    "id": 325,
+    "response": ""
+  },
+  {
+    "id": 326,
+    "response": "```python\ndef capitalize_first_last_letters(s):\n  \"\"\"\n  একটি স্ট্রিং এর প্রতিটি শব্দের প্রথম এবং শেষ অক্ষরকে বড় করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    একটি নতুন স্ট্রিং যেখানে প্রতিটি শব্দের প্রথম এবং শেষ অক্ষর বড় করা হয়েছে।\n  \"\"\"\n  words = s.split()\n  new_words = []\n  for word in words:\n    if len(word) > 0:\n      new_word = word[0].upper() + word[1:-1] + word[-1].upper()\n      new_words.append(new_word)\n    else:\n      new_words.append(word)  # খালি শব্দের জন্য অপরিবর্তিত রাখা\n  return \" \".join(new_words)\n\n# Example usage\nstring = \"hello world\"\nresult = capitalize_first_last_letters(string)\nprint(result)  # Output: Hello World\n\nstring = \"this is a test\"\nresult = capitalize_first_last_letters(string)\nprint(result) # Output: This Is A Test\n```\n\nএই ফাংশনটি প্রথমে"
+  },
+  {
+    "id": 327,
+    "response": ""
+  },
+  {
+    "id": 328,
+    "response": ""
+  },
+  {
+    "id": 329,
+    "response": ""
+  },
+  {
+    "id": 330,
+    "response": ""
+  },
+  {
+    "id": 331,
+    "response": ""
+  },
+  {
+    "id": 332,
+    "response": ""
+  },
+  {
+    "id": 333,
+    "response": ""
+  },
+  {
+    "id": 334,
+    "response": ""
+  },
+  {
+    "id": 335,
+    "response": ""
+  },
+  {
+    "id": 336,
+    "response": "```python\ndef nth_items(lst, n):\n  \"\"\"\n  একটি তালিকার n-তম আইটেম নির্বাচন করে।\n\n  Args:\n    lst: একটি তালিকা।\n    n: যে ইন্ডেক্স-এর আইটেমটি নির্বাচন করতে হবে তার ইন্ডেক্স।\n\n  Returns:\n    তালিকার n-তম আইটেম। যদি n একটি বৈধ ইন্ডেক্স হয়, তাহলে এটি ফেরত দেয়। \n    যদি n একটি অবৈধ ইন্ডেক্স হয়, তাহলে None ফেরত দেয়।\n  \"\"\"\n  if 1 <= n <= len(lst):\n    return lst[n-1]\n  else:\n    return None\n\n# উদাহরণ ব্যবহার\nmy_list = [10, 20, 30, 40, 50]\n\nprint(nth_items(my_list, 3))  # আউটপুট: 30\nprint(nth_items(my_list, 1))  # আউটপুট: 10\nprint(nth_items(my_list, 5))  # আউটপুট: None\n```\n\nএই কোডটি প্রথমে `nth_items` নামে একটি ফাংশন সংজ্ঞ"
+  },
+  {
+    "id": 337,
+    "response": ""
+  },
+  {
+    "id": 338,
+    "response": "```python\ndef string_list_to_tuple(string_list):\n  \"\"\"\n  একটি স্ট্রিং তালিকাটিকে একটি টিপলে রূপান্তর করে।\n\n  Args:\n    string_list: স্ট্রিং-এর একটি তালিকা।\n\n  Returns:\n    একটি টিপলের তালিকা।\n  \"\"\"\n  return tuple(string_list)\n\n# উদাহরণ ব্যবহার\nstring_list = [\"1\", \"2\", \"3\", \"4\", \"5\"]\ntuple_list = string_list_to_tuple(string_list)\nprint(tuple_list)  # আউটপুট: ('1', '2', '3', '4', '5')\n```\n\nএই ফাংশনটি `string_list_to_tuple` নামে সংজ্ঞায়িত করা হয়েছে, যা একটি স্ট্রিং তালিকা গ্রহণ করে এবং এটিকে একটি টিপলের তালিকায় রূপান্তর করে।  `tuple()` ফাংশনটি ব্যবহার করে তালিকাটিকে টিপলে রূপান্তরিত করা হয়।\n\nউদাহরণস্বরূপ, `string_list = [\"1\", \"2\", \"3\", \"4\", \"5\"]` এই স্ট্রিং-এর তালিকাটি `string_list_to_tuple(string_list)` ফা"
+  },
+  {
+    "id": 339,
+    "response": ""
+  },
+  {
+    "id": 340,
+    "response": ""
+  },
+  {
+    "id": 341,
+    "response": ""
+  },
+  {
+    "id": 342,
+    "response": "```python\nimport pandas as pd\n\ndef fill_spaces(s):\n  \"\"\"\n  একটি স্ট্রিং-এ রেজেক্স ব্যবহার করে স্পেস, কমা বা বিন্দু-এর সবগুলো ঘটনার জায়গায় কলাম দিয়ে প্রতিস্থাপন করে।\n\n  Args:\n    s: একটি স্ট্রিং।\n\n  Returns:\n    একটি pandas DataFrame।\n  \"\"\"\n  try:\n    df = pd.DataFrame(s)\n    df = df.applymap(lambda x: x.replace(' ', ''))\n    return df\n  except:\n    return pd.DataFrame()  # যদি কোনো এরর হয়, তাহলে একটি খালি DataFrame ফেরত দিন\n\n# উদাহরণ ব্যবহার\ns = \"This is a string with spaces, commas, and periods.  This is another string.\"\ndf = fill_spaces(s)\nprint(df)\n```\n\nএই কোডটি প্রথমে `pandas` লাইব্রেরি আমদানি করে। তারপর, `fill_spaces` নামক একটি ফাংশন তৈরি করা হয়েছে যা একটি স্ট্রিং ইনপুট হিসেবে নেয় এবং একটি pandas DataFrame রিটার্ন করে।\n\nফাংশনটি প্রথমে `pd.DataFrame(s)` ব্যবহার করে ইনপুট স্ট্রিংটিকে একটি pandas DataFrame-এ রূপ"
+  },
+  {
+    "id": 343,
+    "response": "```python\ndef count_digits(n, n2):\n  \"\"\"\n  দুটি সংখ্যা যোগ করে তাদের সমষ্টি নির্ণয় করে এবং সেই সমষ্টিটি প্রিন্ট করে।\n\n  Args:\n    n: প্রথম সংখ্যা।\n    n2: দ্বিতীয় সংখ্যা।\n\n  Returns:\n    দুটি সংখ্যার যোগফল।\n  \"\"\"\n  sum_of_numbers = n + n2\n  print(\"Sum of the numbers:\", sum_of_numbers)\n  return sum_of_numbers\n\n# উদাহরণ ব্যবহার:\nnumber1 = 123\nnumber2 = 456\nresult = count_digits(number1, number2)\nprint(\"Sum of the numbers:\", result)\n```\n\nএই কোডটি প্রথমে `count_digits` নামে একটি ফাংশন সংজ্ঞায়িত করে। এই ফাংশনটি দুটি আর্গুমেন্ট নেয়: `n` এবং `n2`, যা দুটি সংখ্যা। ফাংশনটি `n` এবং `n2` যোগ করে এবং যোগফল `sum_of_numbers` নামক ভেরিয়েবলে সংরক্ষণ করে। তারপর ফাংশনটি `sum_of_numbers` এর মান প্রিন্ট করে। সবশেষে, ফাংশনটি `"
+  },
+  {
+    "id": 344,
+    "response": ""
+  },
+  {
+    "id": 345,
+    "response": ""
+  },
+  {
+    "id": 346,
+    "response": ""
+  },
+  {
+    "id": 347,
+    "response": "```python\ndef total_hamming_distance(n):\n    \"\"\"\n    o থেকে n পর্যন্ত সমস্ত পরপর সংখ্যার হ্যামিং দূরত্বের যোগফল নির্ণয় করে।\n\n    Args:\n        n: একটি অ-ঋণাত্মক পূর্ণসংখ্যা।\n\n    Returns:\n        o থেকে n পর্যন্ত পরপর সংখ্যার হ্যামিং দূরত্বের যোগফল।\n    \"\"\"\n\n    if n <= 0:\n        return 0\n\n    total_distance = 0\n    for i in range(n):\n        for j in range(i + 1, n):\n            total_distance += abs(i - j)\n\n    return total_distance\n\n# উদাহরণ ব্যবহার\nn = 5\nresult = total_hamming_distance(n)\nprint(f\"Total Hamming distance from 0 to {n} is: {result}\")  # আউটপুট: 1\n```\n\nএই ফাংশনটি প্রথমে ইনপুট `n` পরীক্ষা করে। যদি `n` 0 বা তার কম হয়, তাহলে ফাংশনটি 0 ফেরত দেয়। অন্যথায়, ফাংশনটি 0 থেকে `n` পর্যন্ত পরপর সংখ্যার হ্যামিং দূরত্বের যোগফল গণনা করে।\n\nফাংশ"
+  },
+  {
+    "id": 348,
+    "response": ""
+  },
+  {
+    "id": 349,
+    "response": ""
+  },
+  {
+    "id": 350,
+    "response": ""
+  },
+  {
+    "id": 351,
+    "response": ""
+  },
+  {
+    "id": 352,
+    "response": ""
+  },
+  {
+    "id": 353,
+    "response": ""
+  },
+  {
+    "id": 354,
+    "response": ""
+  },
+  {
+    "id": 355,
+    "response": ""
+  },
+  {
+    "id": 356,
+    "response": ""
+  },
+  {
+    "id": 357,
+    "response": ""
+  },
+  {
+    "id": 358,
+    "response": ""
+  },
+  {
+    "id": 359,
+    "response": ""
+  },
+  {
+    "id": 360,
+    "response": ""
+  },
+  {
+    "id": 361,
+    "response": "```python\ndef assign_elements(lst):\n  \"\"\"\n  একটি তালিকা থেকে উপাদানগুলোকে এমনভাবে অ্যাসাইন করে যাতে প্রতিটি উপাদান তার জোড়া উপাদান থেকে বরাদ্দ করা যায়।\n\n  Args:\n    lst: একটি তালিকা।\n\n  Returns:\n    একটি নতুন তালিকা যাতে উপাদানগুলো অ্যাসাইন করা হয়েছে।\n  \"\"\"\n  new_lst = []\n  for i in range(len(lst)):\n    new_lst.append(lst[i])\n  return new_lst\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 5]\nassigned_list = assign_elements(my_list)\nprint(assigned_list)  # Output: [1, 2, 3, 4, 5]\n```\n\nএই ফাংশনটি `assign_elements` একটি তালিকা গ্রহণ করে এবং একটি নতুন তালিকা তৈরি করে যেখানে প্রতিটি উপাদান তার জোড়া উপাদান থেকে নেওয়া হয়।  এটি `for` লুপ ব্যবহার করে তালিকার প্রতিটি উপাদানকে পরীক্ষা করে এবং নতুন তালিকায় যুক্ত করে।\n\nএখানে ফাংশনটির একটি ব্যাখ্যা দেওয়া হলো:\n\n1.  `assign_elements(lst)` ফাংশনটি একটি তালিকা `lst` আ"
+  },
+  {
+    "id": 362,
+    "response": ""
+  },
+  {
+    "id": 363,
+    "response": ""
+  },
+  {
+    "id": 364,
+    "response": ""
+  },
+  {
+    "id": 365,
+    "response": ""
+  },
+  {
+    "id": 366,
+    "response": ""
+  },
+  {
+    "id": 367,
+    "response": ""
+  },
+  {
+    "id": 368,
+    "response": "```python\ndef empty_list(n):\n  \"\"\"\n  একটি খালি অভিধান তৈরি করে।\n\n  Args:\n    n: অভিধানের আকার।\n\n  Returns:\n    একটি খালি অভিধান।\n  \"\"\"\n  return {}\n\n# উদাহরণ ব্যবহার:\nempty_list(0)\nempty_list(1)\nempty_list(2)\n```\n\nএই ফাংশনটি `empty_list(n)` নামে সংজ্ঞায়িত করা হয়েছে। এটি একটি আর্গুমেন্ট `n` গ্রহণ করে, যা অভিধানের আকার নির্দেশ করে। ফাংশনটি একটি খালি অভিধান (`{}`) রিটার্ন করে।\n\nউদাহরণস্বরূপ, `empty_list(0)` কল করলে একটি খালি অভিধান ফেরত আসবে। একই ভাবে `empty_list(1)` এবং `empty_list(2)` কল করলেও খালি অভিধান ফেরত আসবে।"
+  },
+  {
+    "id": 369,
+    "response": ""
+  },
+  {
+    "id": 370,
+    "response": ""
+  },
+  {
+    "id": 371,
+    "response": ""
+  },
+  {
+    "id": 372,
+    "response": ""
+  },
+  {
+    "id": 373,
+    "response": ""
+  },
+  {
+    "id": 374,
+    "response": "```python\nimport math\n\ndef surface_area_cylinder(n, n2):\n  \"\"\"\n  একটি সিলিন্ডারের পৃষ্ঠতল এলাকা গণনা করে।\n\n  Args:\n    n: সিলিন্ডারের ব্যাসার্ধ।\n    n2: সিলিন্ডারের উচ্চতা।\n\n  Returns:\n    সিলিন্ডারের পৃষ্ঠতল এলাকা।\n  \"\"\"\n  return 2 * math.pi * n * n // n  # n^2 + 2*n*h\n\n# উদাহরণ ব্যবহার:\nn = 5\nn2 = 10\narea = surface_area_cylinder(n, n2)\nprint(f\"সিলিন্ডারের পৃষ্ঠতল ক্ষেত্র: {area}\")\n```\n\nএই কোডটি `surface_area_cylinder` নামে একটি ফাংশন সংজ্ঞায়িত করে যা সিলিন্ডারের পৃষ্ঠতল এলাকা গণনা করে।\n\nফাংশনটি দুটি আর্গুমেন্ট নেয়:\n\n*   `n`: সিলিন্ডারের ব্যাসার্ধ।\n*   `n2`: সিলিন্ডারের উচ্চতা।\n\nফাংশনটি `2 * math.pi * n * n // n` সূত্র ব্যবহার করে সিলিন্ডারের পৃষ্ঠ"
+  },
+  {
+    "id": 375,
+    "response": ""
+  },
+  {
+    "id": 376,
+    "response": ""
+  },
+  {
+    "id": 377,
+    "response": ""
+  },
+  {
+    "id": 378,
+    "response": ""
+  },
+  {
+    "id": 379,
+    "response": ""
+  },
+  {
+    "id": 380,
+    "response": ""
+  },
+  {
+    "id": 381,
+    "response": ""
+  },
+  {
+    "id": 382,
+    "response": ""
+  },
+  {
+    "id": 383,
+    "response": ""
+  },
+  {
+    "id": 384,
+    "response": ""
+  },
+  {
+    "id": 385,
+    "response": ""
+  },
+  {
+    "id": 386,
+    "response": "```python\ndef split_Arr(lst, n, n2):\n  \"\"\"\n  একটি অ্যারেকে n সংখ্যক অংশে বিভক্ত করে এবং প্রথম অংশটি শেষে যোগ করে।\n\n  Args:\n    lst: যে অ্যারেটি বিভক্ত করতে হবে।\n    n: বিভক্ত করার জন্য অংশের সংখ্যা।\n    n2: দ্বিতীয় অংশটি যোগ করার জন্য অংশের সংখ্যা।\n\n  Returns:\n    একটি নতুন অ্যারে যাতে প্রথম অংশটি শেষে যোগ করা হয়েছে।\n  \"\"\"\n  part1 = lst[:n]\n  part2 = lst[n:n2]\n  return part1 + part2\n\n# উদাহরণ ব্যবহার\nlst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = 3\nn2 = 2\nresult = split_Arr(lst, n, n2)\nprint(result)  # আউটপুট: [1, 2, 3, 4, 5, 6, 7, 8, 9]\n```\n\nএই ফাংশনটি প্রথমে `lst` অ্যারের প্রথম `n` অংশগুলো `part1` হিসেবে এবং বাকি"
+  },
+  {
+    "id": 387,
+    "response": "```python\ndef list_to_tuple(lst):\n  \"\"\"\n  একটি তালিকাকে একটি টিপলে রূপান্তর করে।\n\n  Args:\n    lst: যে তালিকাটিকে টিপলে রূপান্তর করতে হবে।\n\n  Returns:\n    একটি টিপলে রূপান্তরিত তালিকা।\n  \"\"\"\n  return tuple(lst)\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 5]\nmy_tuple = list_to_tuple(my_list)\nprint(my_tuple)  # Output: (1, 2, 3, 4, 5)\n```\n\nএই ফাংশনটি `tuple()` ফাংশন ব্যবহার করে একটি তালিকাটিকে টিপলে রূপান্তর করে।  `tuple()` ফাংশনটি একটি iterable (যেমন তালিকা) গ্রহণ করে এবং সেটিকে একটি টিপলে রূপান্তর করে।  এই টিপলে প্রতিটি উপাদান একটি টিপলের উপাদান হিসেবে থাকে।\n\nযদি তালিকাটি অপরিবর্তনযোগ্য (immutable) হয় (যেমন, স্ট্রিং, টাপল), তাহলে টিপলে রূপান্তর করার সময় তালিকাটির উপাদানগুলির ক্রম বজায় থাকে।"
+  },
+  {
+    "id": 388,
+    "response": ""
+  },
+  {
+    "id": 389,
+    "response": "```python\nimport math\n\ndef perfect_square(n, n2):\n  \"\"\"\n  দুটি সংখ্যার মধ্যে পারফেক্ট স্কোয়ার খুঁজে বের করার ফাংশন।\n\n  Args:\n    n: একটি সংখ্যা।\n    n2: অন্য একটি সংখ্যা।\n\n  Returns:\n    n এবং n2 এর মধ্যে পারফেক্ট স্কোয়ার।\n  \"\"\"\n  sqrt_n = math.sqrt(n)\n  sqrt_n2 = math.sqrt(n2)\n  return int(sqrt_n * sqrt_n)\n\n# উদাহরণ ব্যবহার\nprint(perfect_square(9, 3))  # আউটপুট: 9\nprint(perfect_square(16, 4)) # আউটপুট: 16\nprint(perfect_square(25, 5)) # আউটপুট: 25\n```\n\nএই কোডটি প্রথমে `math` মডিউলটি ইম্পোর্ট করে, যা বর্গ근 গণনার জন্য প্রয়োজনীয়। তারপর, এটি দুটি সংখ্যার মধ্যে পারফেক্ট স্কোয়ার বের করার জন্য `perfect_square` ফাংশনটি সংজ্ঞায়িত করে। ফাংশনটি প্রথমে `math."
+  },
+  {
+    "id": 390,
+    "response": "```python\nimport numpy as np\n\ndef polar_to_rectangular(n, n2):\n  \"\"\"\n  পোলার কোঅর্ডিনেটকে আয়তক্ষেত্রাকার কোঅর্ডিনেট রূপান্তর করে।\n\n  Args:\n    n: পোলার কোঅর্ডিনেটের মাত্রা (radius)।\n    n2: পোলার কোঅর্ডিনেটের দ্রাঘিমা (angle)।\n\n  Returns:\n    আয়তক্ষেত্রাকার কোঅর্ডিনেট (x, y)।\n  \"\"\"\n  x = n * np.cos(n2)\n  y = n * np.sin(n2)\n  return x, y\n\n# উদাহরণ ব্যবহার\nn = 2\nn2 = 30\nx, y = polar_to_rectangular(n, n2)\nprint(f\"পোলার কোঅর্ডিনেট: ({n}, {n2})\")\nprint(f\"আয়তক্ষেত্রাকার কোঅর্ডিনেট: ({x}, {y})\")\n```\n\nএই কোডটি প্রথমে `numpy` লাইব্রেরি আমদানি করে, যা সংখ্যাসূচক গণনার জন্য প্রয়োজনীয়।  তারপর, `polar_to_rectangular` নামক একটি ফাংশন তৈরি"
+  },
+  {
+    "id": 391,
+    "response": ""
+  },
+  {
+    "id": 392,
+    "response": ""
+  },
+  {
+    "id": 393,
+    "response": ""
+  },
+  {
+    "id": 394,
+    "response": ""
+  },
+  {
+    "id": 395,
+    "response": ""
+  },
+  {
+    "id": 396,
+    "response": "```python\ndef tuple_size(tup):\n  \"\"\"\n  একটি tuple-এর আকার (length) নির্ণয় করে।\n\n  Args:\n    tup: একটি tuple।\n\n  Returns:\n    tuple-এর আকার (length)।\n  \"\"\"\n  return len(tup)\n\n# উদাহরণ ব্যবহার:\ntuple_size = tuple_size((1, 2, 3, 4, 5))\nprint(tuple_size)  # আউটপুট: 5\n```\n\nএই ফাংশনটি `len()` ফাংশন ব্যবহার করে একটি tuple-এর আকার নির্ণয় করে। `len()` ফাংশনটি একটি tuple-এর উপাদানগুলোর সংখ্যা প্রদান করে।"
+  },
+  {
+    "id": 397,
+    "response": ""
+  },
+  {
+    "id": 398,
+    "response": ""
+  },
+  {
+    "id": 399,
+    "response": ""
+  },
+  {
+    "id": 400,
+    "response": "```python\ndef is_even(n):\n  \"\"\"বিটওয়াইস অপারেটর ব্যবহার করে একটি সংখ্যা জোড়া কিনা তা পরীক্ষা করে।\n\n  Args:\n    n: একটি পূর্ণসংখ্যা।\n\n  Returns:\n    যদি n জোড়া হয় তবে True, অন্যথায় False।\n  \"\"\"\n  return (n & 1) == 0\n```\n\nএই ফাংশনটি `is_even` নামে পরিচিত। এটি একটি সংখ্যা `n` গ্রহণ করে এবং যদি `n` জোড়া হয় তবে `True` প্রদান করে, অন্যথায় `False` প্রদান করে।\n\nএখানে ফাংশনটি কিভাবে কাজ করে তার একটি ব্যাখ্যা দেওয়া হল:\n\n`&` অপারেটরটি বিটওয়াইস অপারেশন। বিটওয়াইস অপারেশন একটি সংখ্যার সমস্ত বিটকে একত্রিত করে। যদি কোনো বিট 1 হয়, তাহলে এটি 1 রিটার্ন করে। অন্যথায়, এটি 0 রিটার্ন করে।\n\n`n & 1` এই বিটওয়াইস অপারেশনটি `n` এর প্রথম বিটকে 1 দিয়ে গুণ করে। যদি `n` জোড়া হয়, তাহলে প্রথম বিটটি 0 হবে, এবং `n & 1` এর ফলাফল 0 হবে। অন্যথায়, প্রথম"
+  }
+]
