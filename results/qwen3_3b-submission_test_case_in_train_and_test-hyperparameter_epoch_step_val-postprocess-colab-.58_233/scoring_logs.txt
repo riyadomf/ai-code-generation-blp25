@@ -1,0 +1,1368 @@
+Executing Sample ID: 1
+✅ ID 1 Passed all test cases.
+
+Executing Sample ID: 2
+✅ ID 2 Passed all test cases.
+
+Executing Sample ID: 3
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 3 Failed some test cases.
+
+Executing Sample ID: 4
+✅ ID 4 Passed all test cases.
+
+Executing Sample ID: 5
+✅ ID 5 Passed all test cases.
+
+Executing Sample ID: 6
+✅ ID 6 Passed all test cases.
+
+Executing Sample ID: 7
+✅ ID 7 Passed all test cases.
+
+Executing Sample ID: 8
+✅ ID 8 Passed all test cases.
+
+Executing Sample ID: 9
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 9 Failed some test cases.
+
+Executing Sample ID: 10
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 10 Failed some test cases.
+
+Executing Sample ID: 11
+✅ ID 11 Passed all test cases.
+
+Executing Sample ID: 12
+✅ ID 12 Passed all test cases.
+
+Executing Sample ID: 13
+✅ ID 13 Passed all test cases.
+
+Executing Sample ID: 14
+✅ ID 14 Passed all test cases.
+
+Executing Sample ID: 15
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 15 Failed some test cases.
+
+Executing Sample ID: 16
+✅ ID 16 Passed all test cases.
+
+Executing Sample ID: 17
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 17 Failed some test cases.
+
+Executing Sample ID: 18
+✅ ID 18 Passed all test cases.
+
+Executing Sample ID: 19
+✅ ID 19 Passed all test cases.
+
+Executing Sample ID: 20
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 20 Failed some test cases.
+
+Executing Sample ID: 21
+✅ ID 21 Passed all test cases.
+
+Executing Sample ID: 22
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 22 Failed some test cases.
+
+Executing Sample ID: 23
+✅ ID 23 Passed all test cases.
+
+Executing Sample ID: 24
+✅ ID 24 Passed all test cases.
+
+Executing Sample ID: 25
+✅ ID 25 Passed all test cases.
+
+Executing Sample ID: 26
+✅ ID 26 Passed all test cases.
+
+Executing Sample ID: 27
+⚠️ Test case 1 exception: list assignment index out of range. Skipping all remaining test cases for this ID.
+❌ ID 27 Failed some test cases.
+
+Executing Sample ID: 28
+✅ ID 28 Passed all test cases.
+
+Executing Sample ID: 29
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 29 Failed some test cases.
+
+Executing Sample ID: 30
+✅ ID 30 Passed all test cases.
+
+Executing Sample ID: 31
+✅ ID 31 Passed all test cases.
+
+Executing Sample ID: 32
+✅ ID 32 Passed all test cases.
+
+Executing Sample ID: 33
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 33 Failed some test cases.
+
+Executing Sample ID: 34
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 34 Failed some test cases.
+
+Executing Sample ID: 35
+✅ ID 35 Passed all test cases.
+
+Executing Sample ID: 36
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 36 Failed some test cases.
+
+Executing Sample ID: 37
+✅ ID 37 Passed all test cases.
+
+Executing Sample ID: 38
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 38 Failed some test cases.
+
+Executing Sample ID: 39
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 39 Failed some test cases.
+
+Executing Sample ID: 40
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 40 Failed some test cases.
+
+Executing Sample ID: 41
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 41 Failed some test cases.
+
+Executing Sample ID: 42
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 42 Failed some test cases.
+
+Executing Sample ID: 43
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 43 Failed some test cases.
+
+Executing Sample ID: 44
+✅ ID 44 Passed all test cases.
+
+Executing Sample ID: 45
+✅ ID 45 Passed all test cases.
+
+Executing Sample ID: 46
+✅ ID 46 Passed all test cases.
+
+Executing Sample ID: 47
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 47 Failed some test cases.
+
+Executing Sample ID: 48
+✅ ID 48 Passed all test cases.
+
+Executing Sample ID: 49
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 49 Failed some test cases.
+
+Executing Sample ID: 50
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 50 Failed some test cases.
+
+Executing Sample ID: 51
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 51 Failed some test cases.
+
+Executing Sample ID: 52
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 52 Failed some test cases.
+
+Executing Sample ID: 53
+✅ ID 53 Passed all test cases.
+
+Executing Sample ID: 54
+✅ ID 54 Passed all test cases.
+
+Executing Sample ID: 55
+✅ ID 55 Passed all test cases.
+
+Executing Sample ID: 56
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 56 Failed some test cases.
+
+Executing Sample ID: 57
+❌ Error in function definition: name 'python' is not defined. Skipping test case execution for this ID.
+
+Executing Sample ID: 58
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 58 Failed some test cases.
+
+Executing Sample ID: 59
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 59 Failed some test cases.
+
+Executing Sample ID: 60
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 60 Failed some test cases.
+
+Executing Sample ID: 61
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 61 Failed some test cases.
+
+Executing Sample ID: 62
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 62 Failed some test cases.
+
+Executing Sample ID: 63
+✅ ID 63 Passed all test cases.
+
+Executing Sample ID: 64
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 64 Failed some test cases.
+
+Executing Sample ID: 65
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 65 Failed some test cases.
+
+Executing Sample ID: 66
+✅ ID 66 Passed all test cases.
+
+Executing Sample ID: 67
+✅ ID 67 Passed all test cases.
+
+Executing Sample ID: 68
+⚠️ Test case 1 exception: string index out of range. Skipping all remaining test cases for this ID.
+❌ ID 68 Failed some test cases.
+
+Executing Sample ID: 69
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 69 Failed some test cases.
+
+Executing Sample ID: 70
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 70 Failed some test cases.
+
+Executing Sample ID: 71
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 71 Failed some test cases.
+
+Executing Sample ID: 72
+✅ ID 72 Passed all test cases.
+
+Executing Sample ID: 73
+✅ ID 73 Passed all test cases.
+
+Executing Sample ID: 74
+✅ ID 74 Passed all test cases.
+
+Executing Sample ID: 75
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 75 Failed some test cases.
+
+Executing Sample ID: 76
+✅ ID 76 Passed all test cases.
+
+Executing Sample ID: 77
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 77 Failed some test cases.
+
+Executing Sample ID: 78
+✅ ID 78 Passed all test cases.
+
+Executing Sample ID: 79
+✅ ID 79 Passed all test cases.
+
+Executing Sample ID: 80
+✅ ID 80 Passed all test cases.
+
+Executing Sample ID: 81
+✅ ID 81 Passed all test cases.
+
+Executing Sample ID: 82
+✅ ID 82 Passed all test cases.
+
+Executing Sample ID: 83
+✅ ID 83 Passed all test cases.
+
+Executing Sample ID: 84
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 84 Failed some test cases.
+
+Executing Sample ID: 85
+✅ ID 85 Passed all test cases.
+
+Executing Sample ID: 86
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 86 Failed some test cases.
+
+Executing Sample ID: 87
+✅ ID 87 Passed all test cases.
+
+Executing Sample ID: 88
+✅ ID 88 Passed all test cases.
+
+Executing Sample ID: 89
+✅ ID 89 Passed all test cases.
+
+Executing Sample ID: 90
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 90 Failed some test cases.
+
+Executing Sample ID: 91
+✅ ID 91 Passed all test cases.
+
+Executing Sample ID: 92
+✅ ID 92 Passed all test cases.
+
+Executing Sample ID: 93
+✅ ID 93 Passed all test cases.
+
+Executing Sample ID: 94
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 94 Failed some test cases.
+
+Executing Sample ID: 95
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 95 Failed some test cases.
+
+Executing Sample ID: 96
+✅ ID 96 Passed all test cases.
+
+Executing Sample ID: 97
+✅ ID 97 Passed all test cases.
+
+Executing Sample ID: 98
+✅ ID 98 Passed all test cases.
+
+Executing Sample ID: 99
+✅ ID 99 Passed all test cases.
+
+Executing Sample ID: 100
+✅ ID 100 Passed all test cases.
+
+Executing Sample ID: 101
+✅ ID 101 Passed all test cases.
+
+Executing Sample ID: 102
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 102 Failed some test cases.
+
+Executing Sample ID: 103
+Key is present in the dictionary
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 103 Failed some test cases.
+
+Executing Sample ID: 104
+✅ ID 104 Passed all test cases.
+
+Executing Sample ID: 105
+✅ ID 105 Passed all test cases.
+
+Executing Sample ID: 106
+✅ ID 106 Passed all test cases.
+
+Executing Sample ID: 107
+✅ ID 107 Passed all test cases.
+
+Executing Sample ID: 108
+✅ ID 108 Passed all test cases.
+
+Executing Sample ID: 109
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 109 Failed some test cases.
+
+Executing Sample ID: 110
+✅ ID 110 Passed all test cases.
+
+Executing Sample ID: 111
+✅ ID 111 Passed all test cases.
+
+Executing Sample ID: 112
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 112 Failed some test cases.
+
+Executing Sample ID: 113
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 113 Failed some test cases.
+
+Executing Sample ID: 114
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 114 Failed some test cases.
+
+Executing Sample ID: 115
+✅ ID 115 Passed all test cases.
+
+Executing Sample ID: 116
+✅ ID 116 Passed all test cases.
+
+Executing Sample ID: 117
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 117 Failed some test cases.
+
+Executing Sample ID: 118
+✅ ID 118 Passed all test cases.
+
+Executing Sample ID: 119
+✅ ID 119 Passed all test cases.
+
+Executing Sample ID: 120
+✅ ID 120 Passed all test cases.
+
+Executing Sample ID: 121
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 121 Failed some test cases.
+
+Executing Sample ID: 122
+✅ ID 122 Passed all test cases.
+
+Executing Sample ID: 123
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 123 Failed some test cases.
+
+Executing Sample ID: 124
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 124 Failed some test cases.
+
+Executing Sample ID: 125
+✅ ID 125 Passed all test cases.
+
+Executing Sample ID: 126
+✅ ID 126 Passed all test cases.
+
+Executing Sample ID: 127
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 127 Failed some test cases.
+
+Executing Sample ID: 128
+✅ ID 128 Passed all test cases.
+
+Executing Sample ID: 129
+✅ ID 129 Passed all test cases.
+
+Executing Sample ID: 130
+✅ ID 130 Passed all test cases.
+
+Executing Sample ID: 131
+✅ ID 131 Passed all test cases.
+
+Executing Sample ID: 132
+✅ ID 132 Passed all test cases.
+
+Executing Sample ID: 133
+✅ ID 133 Passed all test cases.
+
+Executing Sample ID: 134
+✅ ID 134 Passed all test cases.
+
+Executing Sample ID: 135
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 135 Failed some test cases.
+
+Executing Sample ID: 136
+✅ ID 136 Passed all test cases.
+
+Executing Sample ID: 137
+✅ ID 137 Passed all test cases.
+
+Executing Sample ID: 138
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 138 Failed some test cases.
+
+Executing Sample ID: 139
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 139 Failed some test cases.
+
+Executing Sample ID: 140
+✅ ID 140 Passed all test cases.
+
+Executing Sample ID: 141
+✅ ID 141 Passed all test cases.
+
+Executing Sample ID: 142
+⚠️ Test case 1 exception: name 'sqrt' is not defined. Skipping all remaining test cases for this ID.
+❌ ID 142 Failed some test cases.
+
+Executing Sample ID: 143
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 143 Failed some test cases.
+
+Executing Sample ID: 144
+✅ ID 144 Passed all test cases.
+
+Executing Sample ID: 145
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 145 Failed some test cases.
+
+Executing Sample ID: 146
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 146 Failed some test cases.
+
+Executing Sample ID: 147
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 147 Failed some test cases.
+
+Executing Sample ID: 148
+✅ ID 148 Passed all test cases.
+
+Executing Sample ID: 149
+✅ ID 149 Passed all test cases.
+
+Executing Sample ID: 150
+✅ ID 150 Passed all test cases.
+
+Executing Sample ID: 151
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 151 Failed some test cases.
+
+Executing Sample ID: 152
+✅ ID 152 Passed all test cases.
+
+Executing Sample ID: 153
+✅ ID 153 Passed all test cases.
+
+Executing Sample ID: 154
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 154 Failed some test cases.
+
+Executing Sample ID: 155
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 155 Failed some test cases.
+
+Executing Sample ID: 156
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 156 Failed some test cases.
+
+Executing Sample ID: 157
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 157 Failed some test cases.
+
+Executing Sample ID: 158
+✅ ID 158 Passed all test cases.
+
+Executing Sample ID: 159
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 159 Failed some test cases.
+
+Executing Sample ID: 160
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 160 Failed some test cases.
+
+Executing Sample ID: 161
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 161 Failed some test cases.
+
+Executing Sample ID: 162
+✅ ID 162 Passed all test cases.
+
+Executing Sample ID: 163
+⚠️ Test case 1 exception: 'tuple' object has no attribute 'sort'. Skipping all remaining test cases for this ID.
+❌ ID 163 Failed some test cases.
+
+Executing Sample ID: 164
+✅ ID 164 Passed all test cases.
+
+Executing Sample ID: 165
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 165 Failed some test cases.
+
+Executing Sample ID: 166
+✅ ID 166 Passed all test cases.
+
+Executing Sample ID: 167
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 167 Failed some test cases.
+
+Executing Sample ID: 168
+✅ ID 168 Passed all test cases.
+
+Executing Sample ID: 169
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 169 Failed some test cases.
+
+Executing Sample ID: 170
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 170 Failed some test cases.
+
+Executing Sample ID: 171
+✅ ID 171 Passed all test cases.
+
+Executing Sample ID: 172
+✅ ID 172 Passed all test cases.
+
+Executing Sample ID: 173
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 173 Failed some test cases.
+
+Executing Sample ID: 174
+✅ ID 174 Passed all test cases.
+
+Executing Sample ID: 175
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 175 Failed some test cases.
+
+Executing Sample ID: 176
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 176 Failed some test cases.
+
+Executing Sample ID: 177
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 177 Failed some test cases.
+
+Executing Sample ID: 178
+✅ ID 178 Passed all test cases.
+
+Executing Sample ID: 179
+✅ ID 179 Passed all test cases.
+
+Executing Sample ID: 180
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 180 Failed some test cases.
+
+Executing Sample ID: 181
+✅ ID 181 Passed all test cases.
+
+Executing Sample ID: 182
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 182 Failed some test cases.
+
+Executing Sample ID: 183
+✅ ID 183 Passed all test cases.
+
+Executing Sample ID: 184
+✅ ID 184 Passed all test cases.
+
+Executing Sample ID: 185
+✅ ID 185 Passed all test cases.
+
+Executing Sample ID: 186
+✅ ID 186 Passed all test cases.
+
+Executing Sample ID: 187
+✅ ID 187 Passed all test cases.
+
+Executing Sample ID: 188
+✅ ID 188 Passed all test cases.
+
+Executing Sample ID: 189
+✅ ID 189 Passed all test cases.
+
+Executing Sample ID: 190
+✅ ID 190 Passed all test cases.
+
+Executing Sample ID: 191
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 191 Failed some test cases.
+
+Executing Sample ID: 192
+✅ ID 192 Passed all test cases.
+
+Executing Sample ID: 193
+✅ ID 193 Passed all test cases.
+
+Executing Sample ID: 194
+✅ ID 194 Passed all test cases.
+
+Executing Sample ID: 195
+✅ ID 195 Passed all test cases.
+
+Executing Sample ID: 196
+✅ ID 196 Passed all test cases.
+
+Executing Sample ID: 197
+✅ ID 197 Passed all test cases.
+
+Executing Sample ID: 198
+✅ ID 198 Passed all test cases.
+
+Executing Sample ID: 199
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 199 Failed some test cases.
+
+Executing Sample ID: 200
+✅ ID 200 Passed all test cases.
+
+Executing Sample ID: 201
+✅ ID 201 Passed all test cases.
+
+Executing Sample ID: 202
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 202 Failed some test cases.
+
+Executing Sample ID: 203
+✅ ID 203 Passed all test cases.
+
+Executing Sample ID: 204
+✅ ID 204 Passed all test cases.
+
+Executing Sample ID: 205
+✅ ID 205 Passed all test cases.
+
+Executing Sample ID: 206
+✅ ID 206 Passed all test cases.
+
+Executing Sample ID: 207
+✅ ID 207 Passed all test cases.
+
+Executing Sample ID: 208
+✅ ID 208 Passed all test cases.
+
+Executing Sample ID: 209
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 209 Failed some test cases.
+
+Executing Sample ID: 210
+✅ ID 210 Passed all test cases.
+
+Executing Sample ID: 211
+✅ ID 211 Passed all test cases.
+
+Executing Sample ID: 212
+✅ ID 212 Passed all test cases.
+
+Executing Sample ID: 213
+✅ ID 213 Passed all test cases.
+
+Executing Sample ID: 214
+✅ ID 214 Passed all test cases.
+
+Executing Sample ID: 215
+✅ ID 215 Passed all test cases.
+
+Executing Sample ID: 216
+✅ ID 216 Passed all test cases.
+
+Executing Sample ID: 217
+✅ ID 217 Passed all test cases.
+
+Executing Sample ID: 218
+✅ ID 218 Passed all test cases.
+
+Executing Sample ID: 219
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 219 Failed some test cases.
+
+Executing Sample ID: 220
+✅ ID 220 Passed all test cases.
+
+Executing Sample ID: 221
+✅ ID 221 Passed all test cases.
+
+Executing Sample ID: 222
+✅ ID 222 Passed all test cases.
+
+Executing Sample ID: 223
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 223 Failed some test cases.
+
+Executing Sample ID: 224
+✅ ID 224 Passed all test cases.
+
+Executing Sample ID: 225
+✅ ID 225 Passed all test cases.
+
+Executing Sample ID: 226
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 226 Failed some test cases.
+
+Executing Sample ID: 227
+✅ ID 227 Passed all test cases.
+
+Executing Sample ID: 228
+✅ ID 228 Passed all test cases.
+
+Executing Sample ID: 229
+✅ ID 229 Passed all test cases.
+
+Executing Sample ID: 230
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 230 Failed some test cases.
+
+Executing Sample ID: 231
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 231 Failed some test cases.
+
+Executing Sample ID: 232
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 232 Failed some test cases.
+
+Executing Sample ID: 233
+✅ ID 233 Passed all test cases.
+
+Executing Sample ID: 234
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 234 Failed some test cases.
+
+Executing Sample ID: 235
+⚠️ Test case 1 exception: name 'n1' is not defined. Skipping all remaining test cases for this ID.
+❌ ID 235 Failed some test cases.
+
+Executing Sample ID: 236
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 236 Failed some test cases.
+
+Executing Sample ID: 237
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 237 Failed some test cases.
+
+Executing Sample ID: 238
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 238 Failed some test cases.
+
+Executing Sample ID: 239
+✅ ID 239 Passed all test cases.
+
+Executing Sample ID: 240
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 240 Failed some test cases.
+
+Executing Sample ID: 241
+✅ ID 241 Passed all test cases.
+
+Executing Sample ID: 242
+✅ ID 242 Passed all test cases.
+
+Executing Sample ID: 243
+✅ ID 243 Passed all test cases.
+
+Executing Sample ID: 244
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 244 Failed some test cases.
+
+Executing Sample ID: 245
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 245 Failed some test cases.
+
+Executing Sample ID: 246
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 246 Failed some test cases.
+
+Executing Sample ID: 247
+✅ ID 247 Passed all test cases.
+
+Executing Sample ID: 248
+✅ ID 248 Passed all test cases.
+
+Executing Sample ID: 249
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 249 Failed some test cases.
+
+Executing Sample ID: 250
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 250 Failed some test cases.
+
+Executing Sample ID: 251
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 251 Failed some test cases.
+
+Executing Sample ID: 252
+✅ ID 252 Passed all test cases.
+
+Executing Sample ID: 253
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 253 Failed some test cases.
+
+Executing Sample ID: 254
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 254 Failed some test cases.
+
+Executing Sample ID: 255
+✅ ID 255 Passed all test cases.
+
+Executing Sample ID: 256
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 256 Failed some test cases.
+
+Executing Sample ID: 257
+✅ ID 257 Passed all test cases.
+
+Executing Sample ID: 258
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 258 Failed some test cases.
+
+Executing Sample ID: 259
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 259 Failed some test cases.
+
+Executing Sample ID: 260
+✅ ID 260 Passed all test cases.
+
+Executing Sample ID: 261
+✅ ID 261 Passed all test cases.
+
+Executing Sample ID: 262
+✅ ID 262 Passed all test cases.
+
+Executing Sample ID: 263
+✅ ID 263 Passed all test cases.
+
+Executing Sample ID: 264
+✅ ID 264 Passed all test cases.
+
+Executing Sample ID: 265
+✅ ID 265 Passed all test cases.
+
+Executing Sample ID: 266
+✅ ID 266 Passed all test cases.
+
+Executing Sample ID: 267
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 267 Failed some test cases.
+
+Executing Sample ID: 268
+✅ ID 268 Passed all test cases.
+
+Executing Sample ID: 269
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 269 Failed some test cases.
+
+Executing Sample ID: 270
+✅ ID 270 Passed all test cases.
+
+Executing Sample ID: 271
+✅ ID 271 Passed all test cases.
+
+Executing Sample ID: 272
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 272 Failed some test cases.
+
+Executing Sample ID: 273
+✅ ID 273 Passed all test cases.
+
+Executing Sample ID: 274
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 274 Failed some test cases.
+
+Executing Sample ID: 275
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 275 Failed some test cases.
+
+Executing Sample ID: 276
+✅ ID 276 Passed all test cases.
+
+Executing Sample ID: 277
+✅ ID 277 Passed all test cases.
+
+Executing Sample ID: 278
+✅ ID 278 Passed all test cases.
+
+Executing Sample ID: 279
+✅ ID 279 Passed all test cases.
+
+Executing Sample ID: 280
+✅ ID 280 Passed all test cases.
+
+Executing Sample ID: 281
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 281 Failed some test cases.
+
+Executing Sample ID: 282
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 282 Failed some test cases.
+
+Executing Sample ID: 283
+✅ ID 283 Passed all test cases.
+
+Executing Sample ID: 284
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 284 Failed some test cases.
+
+Executing Sample ID: 285
+✅ ID 285 Passed all test cases.
+
+Executing Sample ID: 286
+✅ ID 286 Passed all test cases.
+
+Executing Sample ID: 287
+✅ ID 287 Passed all test cases.
+
+Executing Sample ID: 288
+✅ ID 288 Passed all test cases.
+
+Executing Sample ID: 289
+✅ ID 289 Passed all test cases.
+
+Executing Sample ID: 290
+✅ ID 290 Passed all test cases.
+
+Executing Sample ID: 291
+✅ ID 291 Passed all test cases.
+
+Executing Sample ID: 292
+✅ ID 292 Passed all test cases.
+
+Executing Sample ID: 293
+✅ ID 293 Passed all test cases.
+
+Executing Sample ID: 294
+✅ ID 294 Passed all test cases.
+
+Executing Sample ID: 295
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 295 Failed some test cases.
+
+Executing Sample ID: 296
+✅ ID 296 Passed all test cases.
+
+Executing Sample ID: 297
+✅ ID 297 Passed all test cases.
+
+Executing Sample ID: 298
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 298 Failed some test cases.
+
+Executing Sample ID: 299
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 299 Failed some test cases.
+
+Executing Sample ID: 300
+✅ ID 300 Passed all test cases.
+
+Executing Sample ID: 301
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 301 Failed some test cases.
+
+Executing Sample ID: 302
+✅ ID 302 Passed all test cases.
+
+Executing Sample ID: 303
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 303 Failed some test cases.
+
+Executing Sample ID: 304
+✅ ID 304 Passed all test cases.
+
+Executing Sample ID: 305
+✅ ID 305 Passed all test cases.
+
+Executing Sample ID: 306
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 306 Failed some test cases.
+
+Executing Sample ID: 307
+✅ ID 307 Passed all test cases.
+
+Executing Sample ID: 308
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 308 Failed some test cases.
+
+Executing Sample ID: 309
+✅ ID 309 Passed all test cases.
+
+Executing Sample ID: 310
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 310 Failed some test cases.
+
+Executing Sample ID: 311
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 311 Failed some test cases.
+
+Executing Sample ID: 312
+✅ ID 312 Passed all test cases.
+
+Executing Sample ID: 313
+✅ ID 313 Passed all test cases.
+
+Executing Sample ID: 314
+✅ ID 314 Passed all test cases.
+
+Executing Sample ID: 315
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 315 Failed some test cases.
+
+Executing Sample ID: 316
+❌ Error in function definition: name 'python' is not defined. Skipping test case execution for this ID.
+
+Executing Sample ID: 317
+✅ ID 317 Passed all test cases.
+
+Executing Sample ID: 318
+✅ ID 318 Passed all test cases.
+
+Executing Sample ID: 319
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 319 Failed some test cases.
+
+Executing Sample ID: 320
+✅ ID 320 Passed all test cases.
+
+Executing Sample ID: 321
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 321 Failed some test cases.
+
+Executing Sample ID: 322
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 322 Failed some test cases.
+
+Executing Sample ID: 323
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 323 Failed some test cases.
+
+Executing Sample ID: 324
+✅ ID 324 Passed all test cases.
+
+Executing Sample ID: 325
+✅ ID 325 Passed all test cases.
+
+Executing Sample ID: 326
+✅ ID 326 Passed all test cases.
+
+Executing Sample ID: 327
+✅ ID 327 Passed all test cases.
+
+Executing Sample ID: 328
+✅ ID 328 Passed all test cases.
+
+Executing Sample ID: 329
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 329 Failed some test cases.
+
+Executing Sample ID: 330
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 330 Failed some test cases.
+
+Executing Sample ID: 331
+✅ ID 331 Passed all test cases.
+
+Executing Sample ID: 332
+✅ ID 332 Passed all test cases.
+
+Executing Sample ID: 333
+✅ ID 333 Passed all test cases.
+
+Executing Sample ID: 334
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 334 Failed some test cases.
+
+Executing Sample ID: 335
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 335 Failed some test cases.
+
+Executing Sample ID: 336
+✅ ID 336 Passed all test cases.
+
+Executing Sample ID: 337
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 337 Failed some test cases.
+
+Executing Sample ID: 338
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 338 Failed some test cases.
+
+Executing Sample ID: 339
+✅ ID 339 Passed all test cases.
+
+Executing Sample ID: 340
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 340 Failed some test cases.
+
+Executing Sample ID: 341
+✅ ID 341 Passed all test cases.
+
+Executing Sample ID: 342
+✅ ID 342 Passed all test cases.
+
+Executing Sample ID: 343
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 343 Failed some test cases.
+
+Executing Sample ID: 344
+✅ ID 344 Passed all test cases.
+
+Executing Sample ID: 345
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 345 Failed some test cases.
+
+Executing Sample ID: 346
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 346 Failed some test cases.
+
+Executing Sample ID: 347
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 347 Failed some test cases.
+
+Executing Sample ID: 348
+✅ ID 348 Passed all test cases.
+
+Executing Sample ID: 349
+✅ ID 349 Passed all test cases.
+
+Executing Sample ID: 350
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 350 Failed some test cases.
+
+Executing Sample ID: 351
+✅ ID 351 Passed all test cases.
+
+Executing Sample ID: 352
+✅ ID 352 Passed all test cases.
+
+Executing Sample ID: 353
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 353 Failed some test cases.
+
+Executing Sample ID: 354
+❌ Test case 2 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 354 Failed some test cases.
+
+Executing Sample ID: 355
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 355 Failed some test cases.
+
+Executing Sample ID: 356
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 356 Failed some test cases.
+
+Executing Sample ID: 357
+✅ ID 357 Passed all test cases.
+
+Executing Sample ID: 358
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 358 Failed some test cases.
+
+Executing Sample ID: 359
+✅ ID 359 Passed all test cases.
+
+Executing Sample ID: 360
+✅ ID 360 Passed all test cases.
+
+Executing Sample ID: 361
+✅ ID 361 Passed all test cases.
+
+Executing Sample ID: 362
+✅ ID 362 Passed all test cases.
+
+Executing Sample ID: 363
+✅ ID 363 Passed all test cases.
+
+Executing Sample ID: 364
+❌ Test case 3 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 364 Failed some test cases.
+
+Executing Sample ID: 365
+✅ ID 365 Passed all test cases.
+
+Executing Sample ID: 366
+✅ ID 366 Passed all test cases.
+
+Executing Sample ID: 367
+✅ ID 367 Passed all test cases.
+
+Executing Sample ID: 368
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 368 Failed some test cases.
+
+Executing Sample ID: 369
+✅ ID 369 Passed all test cases.
+
+Executing Sample ID: 370
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 370 Failed some test cases.
+
+Executing Sample ID: 371
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 371 Failed some test cases.
+
+Executing Sample ID: 372
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 372 Failed some test cases.
+
+Executing Sample ID: 373
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 373 Failed some test cases.
+
+Executing Sample ID: 374
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 374 Failed some test cases.
+
+Executing Sample ID: 375
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 375 Failed some test cases.
+
+Executing Sample ID: 376
+✅ ID 376 Passed all test cases.
+
+Executing Sample ID: 377
+✅ ID 377 Passed all test cases.
+
+Executing Sample ID: 378
+✅ ID 378 Passed all test cases.
+
+Executing Sample ID: 379
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 379 Failed some test cases.
+
+Executing Sample ID: 380
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 380 Failed some test cases.
+
+Executing Sample ID: 381
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 381 Failed some test cases.
+
+Executing Sample ID: 382
+✅ ID 382 Passed all test cases.
+
+Executing Sample ID: 383
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 383 Failed some test cases.
+
+Executing Sample ID: 384
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 384 Failed some test cases.
+
+Executing Sample ID: 385
+✅ ID 385 Passed all test cases.
+
+Executing Sample ID: 386
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 386 Failed some test cases.
+
+Executing Sample ID: 387
+✅ ID 387 Passed all test cases.
+
+Executing Sample ID: 388
+✅ ID 388 Passed all test cases.
+
+Executing Sample ID: 389
+✅ ID 389 Passed all test cases.
+
+Executing Sample ID: 390
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 390 Failed some test cases.
+
+Executing Sample ID: 391
+✅ ID 391 Passed all test cases.
+
+Executing Sample ID: 392
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 392 Failed some test cases.
+
+Executing Sample ID: 393
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 393 Failed some test cases.
+
+Executing Sample ID: 394
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 394 Failed some test cases.
+
+Executing Sample ID: 395
+✅ ID 395 Passed all test cases.
+
+Executing Sample ID: 396
+✅ ID 396 Passed all test cases.
+
+Executing Sample ID: 397
+❌ Test case 1 failed: assertion error. Skipping all remaining test cases for this ID.
+❌ ID 397 Failed some test cases.
+
+Executing Sample ID: 398
+✅ ID 398 Passed all test cases.
+
+Executing Sample ID: 399
+✅ ID 399 Passed all test cases.
+
+Executing Sample ID: 400
+✅ ID 400 Passed all test cases.
+
+
+Global Accuracy: 233/400 = 0.58
